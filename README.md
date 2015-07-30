@@ -1,3 +1,6 @@
+Мой потенциальный диссер с шаблоном, стыренным отсюда: https://github.com/AndreyAkinshin/Russian-Phd-LaTeX-Dissertation-Template
+
+
 LaTeX-шаблон для русской кандидатской диссертации и её автореферата.
 
 ## Особенности
