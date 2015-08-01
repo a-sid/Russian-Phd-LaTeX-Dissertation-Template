@@ -4,7 +4,7 @@ img_extIsRegExp=false
 img_extensions=.eps .jpg .jpeg .png .pdf .ps .fig .gif
 kileprversion=2
 kileversion=2.1.3
-lastDocument=part3.tex
+lastDocument=introduction.tex
 masterDocument=
 name=Disser
 pkg_extIsRegExp=false
@@ -135,7 +135,7 @@ encoding=UTF-8
 highlight=LaTeX
 line=18
 mode=LaTeX
-open=true
+open=false
 order=3
 
 [item:biblio.bib]
@@ -143,10 +143,10 @@ archive=true
 column=0
 encoding=UTF-8
 highlight=BibTeX
-line=465
+line=0
 mode=BibTeX
 open=true
-order=10
+order=9
 
 [item:conclusion.tex]
 archive=true
@@ -156,24 +156,24 @@ highlight=LaTeX
 line=0
 mode=LaTeX
 open=true
-order=11
+order=10
 
 [item:contents.tex]
 archive=true
 column=0
 encoding=UTF-8
 highlight=LaTeX
-line=0
+line=2
 mode=LaTeX
-open=false
-order=-1
+open=true
+order=14
 
 [item:data.tex]
 archive=true
-column=15
+column=0
 encoding=UTF-8
 highlight=LaTeX
-line=12
+line=0
 mode=LaTeX
 open=true
 order=2
@@ -203,20 +203,20 @@ archive=true
 column=0
 encoding=UTF-8
 highlight=LaTeX
-line=0
+line=25
 mode=LaTeX
 open=true
 order=0
 
 [item:introduction.tex]
 archive=true
-column=1027
+column=339
 encoding=UTF-8
 highlight=LaTeX
-line=6
+line=44
 mode=LaTeX
 open=true
-order=8
+order=7
 
 [item:lists.tex]
 archive=true
@@ -226,7 +226,7 @@ highlight=LaTeX
 line=0
 mode=LaTeX
 open=true
-order=12
+order=11
 
 [item:names.tex]
 archive=true
@@ -236,47 +236,47 @@ highlight=LaTeX
 line=0
 mode=LaTeX
 open=true
-order=14
+order=13
 
 [item:packages.tex]
 archive=true
-column=27
+column=0
+encoding=UTF-8
+highlight=LaTeX
+line=46
+mode=LaTeX
+open=true
+order=6
+
+[item:part1.tex]
+archive=true
+column=0
+encoding=UTF-8
+highlight=LaTeX
+line=5
+mode=LaTeX
+open=true
+order=4
+
+[item:part2.tex]
+archive=true
+column=252
 encoding=UTF-8
 highlight=LaTeX
 line=16
 mode=LaTeX
 open=true
-order=7
-
-[item:part1.tex]
-archive=true
-column=156
-encoding=UTF-8
-highlight=LaTeX
-line=9
-mode=LaTeX
-open=true
 order=5
-
-[item:part2.tex]
-archive=true
-column=59
-encoding=UTF-8
-highlight=LaTeX
-line=238
-mode=LaTeX
-open=true
-order=6
 
 [item:part3.tex]
 archive=true
 column=0
 encoding=UTF-8
 highlight=LaTeX
-line=110
+line=135
 mode=LaTeX
 open=true
-order=4
+order=3
 
 [item:references.tex]
 archive=true
@@ -286,7 +286,7 @@ highlight=LaTeX
 line=9
 mode=LaTeX
 open=true
-order=13
+order=12
 
 [item:styles.tex]
 archive=true
@@ -296,14 +296,14 @@ highlight=LaTeX
 line=155
 mode=LaTeX
 open=true
-order=9
+order=8
 
 [item:title.tex]
 archive=true
-column=13
+column=21
 encoding=UTF-8
 highlight=LaTeX
-line=8
+line=15
 mode=LaTeX
 open=true
 order=1
@@ -316,9 +316,9 @@ ViMarks=
 
 [view-settings,view=0,item:biblio.bib]
 CursorColumn=0
-CursorLine=465
+CursorLine=0
 JumpList=
-ViMarks=.,473,15,[,473,15,],473,22
+ViMarks=.,-1,-1,[,-1,-1,],-1,-1
 
 [view-settings,view=0,item:conclusion.tex]
 CursorColumn=0
@@ -328,25 +328,25 @@ ViMarks=
 
 [view-settings,view=0,item:contents.tex]
 CursorColumn=0
-CursorLine=0
+CursorLine=2
 JumpList=
 ViMarks=
 
 [view-settings,view=0,item:data.tex]
-CursorColumn=15
-CursorLine=12
+CursorColumn=0
+CursorLine=0
 JumpList=
-ViMarks=.,10,96,[,10,96,],10,96
+ViMarks=.,-1,-1,[,-1,-1,],-1,-1
 
 [view-settings,view=0,item:dissertation.tex]
 CursorColumn=0
-CursorLine=0
+CursorLine=25
 JumpList=
 ViMarks=.,1,24,[,1,24,],1,24
 
 [view-settings,view=0,item:introduction.tex]
-CursorColumn=1027
-CursorLine=6
+CursorColumn=339
+CursorLine=44
 JumpList=
 ViMarks=.,6,662,[,6,662,],6,662
 
@@ -363,26 +363,26 @@ JumpList=
 ViMarks=
 
 [view-settings,view=0,item:packages.tex]
-CursorColumn=27
-CursorLine=16
+CursorColumn=0
+CursorLine=46
 JumpList=
-ViMarks=.,19,0,[,19,0,],19,0
+ViMarks=.,47,0,[,47,0,],47,0
 
 [view-settings,view=0,item:part1.tex]
-CursorColumn=156
-CursorLine=9
+CursorColumn=0
+CursorLine=5
 JumpList=
 ViMarks=.,4,0,[,3,34,],-1,-1
 
 [view-settings,view=0,item:part2.tex]
-CursorColumn=59
-CursorLine=238
+CursorColumn=252
+CursorLine=16
 JumpList=
-ViMarks=.,238,58,[,238,58,],238,58
+ViMarks=.,382,510,[,382,451,],382,510
 
 [view-settings,view=0,item:part3.tex]
 CursorColumn=0
-CursorLine=110
+CursorLine=135
 JumpList=
 ViMarks=.,113,0,[,113,0,],113,0
 
@@ -399,7 +399,7 @@ JumpList=
 ViMarks=
 
 [view-settings,view=0,item:title.tex]
-CursorColumn=13
-CursorLine=8
+CursorColumn=21
+CursorLine=15
 JumpList=
 ViMarks=
