@@ -301,10 +301,10 @@ order=3
 
 [item:part2.tex]
 archive=true
-column=363
+column=90
 encoding=UTF-8
 highlight=LaTeX
-line=453
+line=512
 mode=LaTeX
 open=true
 order=4
@@ -381,7 +381,7 @@ ViMarks=
 CursorColumn=0
 CursorLine=0
 JumpList=
-ViMarks=.,-1,-1,[,-1,-1,],-1,-1
+ViMarks=.,0,0,[,0,0,],-1,-1
 
 [view-settings,view=0,item:conclusion.tex]
 CursorColumn=0
@@ -438,10 +438,10 @@ JumpList=
 ViMarks=.,4,0,[,3,34,],-1,-1
 
 [view-settings,view=0,item:part2.tex]
-CursorColumn=363
-CursorLine=453
+CursorColumn=90
+CursorLine=512
 JumpList=
-ViMarks=.,453,362,[,453,281,],453,362
+ViMarks=.,512,89,[,512,78,],512,89
 
 [view-settings,view=0,item:part3.tex]
 CursorColumn=0
