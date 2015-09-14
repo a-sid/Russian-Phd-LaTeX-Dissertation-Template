@@ -10,12 +10,12 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="744.09448819"
-   height="1052.3622047"
+   width="1889.4111"
+   height="515.51007"
    id="svg2"
    version="1.1"
-   inkscape:version="0.48.4 r9939"
-   sodipodi:docname="Новый документ 1">
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="ms-sdl.svg">
   <defs
      id="defs4">
     <linearGradient
@@ -32,11 +32,11 @@
     <linearGradient
        id="linearGradient3757">
       <stop
-         style="stop-color:#3081ff;stop-opacity:1;"
+         style="stop-color:#ff7f00;stop-opacity:1"
          offset="0"
          id="stop3759" />
       <stop
-         style="stop-color:#3081ff;stop-opacity:0.49803922;"
+         style="stop-color:#ff7f00;stop-opacity:0"
          offset="1"
          id="stop3761" />
     </linearGradient>
@@ -179,6 +179,26 @@
        y1="151.80864"
        x2="189.39084"
        y2="48.773075" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3757"
+       id="linearGradient3470"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(1595.7143,0)"
+       x1="188.89853"
+       y1="151.80864"
+       x2="189.39084"
+       y2="48.773075" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3757"
+       id="linearGradient3472"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.99721516,0,0,3.8760541,1593.8769,-15.312302)"
+       x1="188.89853"
+       y1="151.80864"
+       x2="189.39084"
+       y2="48.773075" />
   </defs>
   <sodipodi:namedview
      id="base"
@@ -187,17 +207,21 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.7"
-     inkscape:cx="943.42506"
-     inkscape:cy="669.66708"
+     inkscape:zoom="0.35"
+     inkscape:cx="539.61541"
+     inkscape:cy="-153.18471"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
-     inkscape:window-width="1814"
-     inkscape:window-height="1060"
-     inkscape:window-x="104"
-     inkscape:window-y="-3"
-     inkscape:window-maximized="1" />
+     inkscape:window-width="1787"
+     inkscape:window-height="1043"
+     inkscape:window-x="127"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
   <metadata
      id="metadata7">
     <rdf:RDF>
@@ -213,16 +237,17 @@
   <g
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
-     id="layer1">
+     id="layer1"
+     transform="translate(-58.56278,-48.780704)">
     <path
-       style="fill:url(#linearGradient3763);fill-opacity:1.0;stroke:#000000;stroke-opacity:1"
+       style="fill:url(#linearGradient3763);fill-opacity:1;stroke:#000000;stroke-opacity:1"
        d="m 61.619305,49.280704 249.999995,0 40,49.999998 -40,49.999998 -249.999995,0 39.999995,-49.999998 z"
        id="rect3755"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccccccc" />
     <text
        xml:space="preserve"
-       style="font-size:28px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Ubuntu Condensed;-inkscape-font-specification:'Ubuntu Condensed,'"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:28px;line-height:125%;font-family:'Ubuntu Condensed';-inkscape-font-specification:'Ubuntu Condensed,';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
        x="142.27994"
        y="107.29813"
        id="text3768"
@@ -232,14 +257,14 @@
          x="142.27994"
          y="107.29813">Обучение</tspan></text>
     <path
-       style="fill:url(#linearGradient3789);fill-opacity:1.0;stroke:#000000;stroke-width:1.96602643000000010;stroke-opacity:1"
+       style="fill:url(#linearGradient3789);fill-opacity:1;stroke:#000000;stroke-width:1.96602643;stroke-opacity:1"
        d="m 59.768723,175.70234 249.303797,0 39.8886,193.8027 -39.8886,193.8027 -249.303797,0 39.888607,-193.8027 z"
        id="rect3755-6"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccccccc" />
     <text
        xml:space="preserve"
-       style="font-size:28px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Ubuntu Condensed;-inkscape-font-specification:'Ubuntu Condensed,'"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:28px;line-height:125%;font-family:'Ubuntu Condensed';-inkscape-font-specification:'Ubuntu Condensed,';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
        x="142.51778"
        y="336.09387"
        id="text3768-6"
@@ -261,13 +286,13 @@
        inkscape:connector-curvature="0"
        id="path3883"
        d="m 327.33359,49.280704 250,0 40,49.999998 -40,49.999998 -250,0 40,-49.999998 z"
-       style="fill:url(#linearGradient3899);fill-opacity:1.0;stroke:#000000;stroke-opacity:1" />
+       style="fill:url(#linearGradient3899);fill-opacity:1;stroke:#000000;stroke-opacity:1" />
     <text
        sodipodi:linespacing="125%"
        id="text3885"
        y="107.29813"
        x="407.99423"
-       style="font-size:28px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Ubuntu Condensed;-inkscape-font-specification:'Ubuntu Condensed,'"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:28px;line-height:125%;font-family:'Ubuntu Condensed';-inkscape-font-specification:'Ubuntu Condensed,';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
        xml:space="preserve"><tspan
          y="107.29813"
          x="407.99423"
@@ -278,13 +303,13 @@
        inkscape:connector-curvature="0"
        id="path3889"
        d="m 325.32459,175.70234 249.30379,0 39.88861,193.8027 -39.88861,193.8027 -249.30379,0 39.8886,-193.8027 z"
-       style="fill:url(#linearGradient3901);fill-opacity:1.0;stroke:#000000;stroke-width:1.96602643000000010;stroke-opacity:1" />
+       style="fill:url(#linearGradient3901);fill-opacity:1;stroke:#000000;stroke-width:1.96602643;stroke-opacity:1" />
     <text
        sodipodi:linespacing="125%"
        id="text3891"
        y="226.09387"
        x="385.37491"
-       style="font-size:28px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Ubuntu Condensed;-inkscape-font-specification:'Ubuntu Condensed,'"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:28px;line-height:125%;font-family:'Ubuntu Condensed';-inkscape-font-specification:'Ubuntu Condensed,';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
        xml:space="preserve"><tspan
          id="tspan3897"
          y="226.09387"
@@ -314,15 +339,15 @@
          x="385.37491"
          sodipodi:role="line"
          id="tspan3918">качества</tspan><tspan
-         y="471.0939"
+         y="471.09387"
          x="385.37491"
          sodipodi:role="line"
          id="tspan3920" /><tspan
-         y="506.0939"
+         y="506.09387"
          x="385.37491"
          sodipodi:role="line"
          id="tspan3922">Оценка рисков</tspan><tspan
-         y="541.09393"
+         y="541.09387"
          x="385.37491"
          sodipodi:role="line"
          id="tspan3924">безопасности</tspan></text>
@@ -334,7 +359,7 @@
        sodipodi:nodetypes="ccccccc" />
     <text
        xml:space="preserve"
-       style="font-size:28px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Ubuntu Condensed;-inkscape-font-specification:'Ubuntu Condensed,'"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:28px;line-height:125%;font-family:'Ubuntu Condensed';-inkscape-font-specification:'Ubuntu Condensed,';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
        x="650.85138"
        y="107.29813"
        id="text3934"
@@ -351,7 +376,7 @@
        sodipodi:nodetypes="ccccccc" />
     <text
        xml:space="preserve"
-       style="font-size:28px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Ubuntu Condensed;-inkscape-font-specification:'Ubuntu Condensed,'"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:28px;line-height:125%;font-family:'Ubuntu Condensed';-inkscape-font-specification:'Ubuntu Condensed,';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
        x="643.66064"
        y="238.09387"
        id="text3940"
@@ -394,13 +419,15 @@
          id="tspan3977">угроз</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
        x="944.28571"
        y="109.50504"
        id="text3966"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
-         id="tspan3968"></tspan></text>
+         id="tspan3968"
+         x="944.28571"
+         y="109.50504" /></text>
     <path
        sodipodi:nodetypes="ccccccc"
        inkscape:connector-curvature="0"
@@ -412,7 +439,7 @@
        id="text3983"
        y="107.29813"
        x="946.56567"
-       style="font-size:28px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Ubuntu Condensed;-inkscape-font-specification:'Ubuntu Condensed,'"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:28px;line-height:125%;font-family:'Ubuntu Condensed';-inkscape-font-specification:'Ubuntu Condensed,';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
        xml:space="preserve"><tspan
          y="107.29813"
          x="946.56567"
@@ -429,7 +456,7 @@
        id="text3989"
        y="202.09387"
        x="909.37494"
-       style="font-size:28px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Ubuntu Condensed;-inkscape-font-specification:'Ubuntu Condensed,'"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:28px;line-height:125%;font-family:'Ubuntu Condensed';-inkscape-font-specification:'Ubuntu Condensed,';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
        xml:space="preserve"><tspan
          y="202.09387"
          x="909.37494"
@@ -483,7 +510,7 @@
        sodipodi:nodetypes="ccccccc" />
     <text
        xml:space="preserve"
-       style="font-size:28px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Ubuntu Condensed;-inkscape-font-specification:'Ubuntu Condensed,'"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:28px;line-height:125%;font-family:'Ubuntu Condensed';-inkscape-font-specification:'Ubuntu Condensed,';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
        x="1202.5657"
        y="107.29813"
        id="text4036"
@@ -500,7 +527,7 @@
        sodipodi:nodetypes="ccccccc" />
     <text
        xml:space="preserve"
-       style="font-size:28px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Ubuntu Condensed;-inkscape-font-specification:'Ubuntu Condensed,'"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:28px;line-height:125%;font-family:'Ubuntu Condensed';-inkscape-font-specification:'Ubuntu Condensed,';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
        x="1175.3749"
        y="212.09387"
        id="text4042"
@@ -555,11 +582,11 @@
        sodipodi:linespacing="125%"
        id="text4098"
        y="107.29813"
-       x="1470.5657"
-       style="font-size:28px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Ubuntu Condensed;-inkscape-font-specification:'Ubuntu Condensed,'"
+       x="1506.5657"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:28px;line-height:125%;font-family:'Ubuntu Condensed';-inkscape-font-specification:'Ubuntu Condensed,';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
        xml:space="preserve"><tspan
          y="107.29813"
-         x="1470.5657"
+         x="1506.5657"
          id="tspan4100"
          sodipodi:role="line">Выпуск</tspan></text>
     <path
@@ -573,7 +600,7 @@
        id="text4104"
        y="212.09387"
        x="1443.3749"
-       style="font-size:28px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Ubuntu Condensed;-inkscape-font-specification:'Ubuntu Condensed,'"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:28px;line-height:125%;font-family:'Ubuntu Condensed';-inkscape-font-specification:'Ubuntu Condensed,';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
        xml:space="preserve"><tspan
          id="tspan4108"
          y="212.09387"
@@ -615,5 +642,43 @@
          y="527.09387"
          x="1443.3749"
          sodipodi:role="line">Архив выпусков</tspan></text>
+    <path
+       style="fill:url(#linearGradient3470);fill-opacity:1;stroke:#000000;stroke-opacity:1"
+       d="m 1657.3336,49.280704 250,0 40,49.999998 -40,49.999998 -250,0 40,-49.999998 z"
+       id="path3440"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccccc" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:28px;line-height:125%;font-family:'Ubuntu Condensed';-inkscape-font-specification:'Ubuntu Condensed,';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
+       x="1762.5657"
+       y="107.29813"
+       id="text3442"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3444"
+         x="1762.5657"
+         y="107.29813">Реакция</tspan></text>
+    <path
+       style="fill:url(#linearGradient3472);fill-opacity:1;stroke:#000000;stroke-width:1.96602643;stroke-opacity:1"
+       d="m 1655.3246,175.70234 249.3038,0 39.8886,193.8027 -39.8886,193.8027 -249.3038,0 39.8886,-193.8027 z"
+       id="path3446"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccccc" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:28px;line-height:125%;font-family:'Ubuntu Condensed';-inkscape-font-specification:'Ubuntu Condensed,';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
+       x="1737.3749"
+       y="356.09387"
+       id="text3448"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="1737.3749"
+         y="356.09387"
+         id="tspan3450">Реакция</tspan><tspan
+         sodipodi:role="line"
+         x="1737.3749"
+         y="391.09387"
+         id="tspan3468">на инцидент</tspan></text>
   </g>
 </svg>
