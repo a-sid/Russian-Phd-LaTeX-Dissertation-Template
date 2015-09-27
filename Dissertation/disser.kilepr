@@ -16,6 +16,20 @@ src_extensions=.tex .ltx .latex .dtx .ins
 MakeIndex=
 QuickBuild=
 
+[document-settings,item:../biblio/authorpapersVAK.bib]
+Bookmarks=
+Encoding=UTF-8
+Highlighting=BibTeX
+Indentation Mode=normal
+Mode=BibTeX
+
+[document-settings,item:../biblio/othercites.bib]
+Bookmarks=
+Encoding=UTF-8
+Highlighting=BibTeX
+Indentation Mode=normal
+Mode=BibTeX
+
 [document-settings,item:../common/characteristic.tex]
 Bookmarks=
 Encoding=UTF-8

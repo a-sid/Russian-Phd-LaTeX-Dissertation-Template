@@ -270,9 +270,53 @@
   school       = {Georgia Institute of Technology},
   year         = {2012},
   address      = {The address of the publisher},
-  month        = {8},
+  month        = {aug},
   language     = {english}
 }
+
+
+@PHDTHESIS{trtik-thesis,
+  author       = {Marek Trt\'{i}k}, 
+  title        = {Symbolic Execution and Program Loops},
+  school       = {Faculty Masaryk of University Informatics},
+  year         = {2013},
+  address      = {Brno},
+  language     = {english}
+}
+
+@article{state-merge,
+ author = {Kuznetsov, Volodymyr and Kinder, Johannes and Bucur, Stefan and Candea, George},
+ title = {Efficient State Merging in Symbolic Execution},
+ journal = {SIGPLAN Not.},
+ issue_date = {June 2012},
+ volume = {47},
+ number = {6},
+ month = "jun",
+ year = {2012},
+ issn = {0362-1340},
+ pages = {193--204},
+ numpages = {12},
+ url = {http://doi.acm.org/10.1145/2345156.2254088},
+ doi = {10.1145/2345156.2254088},
+ acmid = {2254088},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+ keywords = {bounded software model checking, state merging, symbolic execution, testing, verification},
+}
+
+
+@inproceedings{state-merge-securware,
+ author = {Andreas Ibing},
+ title = {Demand-driven Compositional Symbolic Execution},
+ booktitle = {SECURWARE 2014 : The Eighth International Conference on Emerging Security Information, Systems and Technologies},
+ year = {2014},
+ isbn = {978-1-61208-376-6},
+ location = {Lisbon, Portugal},
+ pages = {180--185},
+ numpages = {6},
+ publisher = {IARIA}
+} 
+
 
 @inproceedings{anand-godefroid,
  author = {Anand, Saswat and Godefroid, Patrice and Tillmann, Nikolai},
@@ -475,7 +519,84 @@
  acmid = {512973},
  publisher = {ACM},
  address = {New York, NY, USA},
-} 
+}
+
+@inproceedings{dart,
+ author = {Godefroid, Patrice and Klarlund, Nils and Sen, Koushik},
+ title = {DART: Directed Automated Random Testing},
+ booktitle = {Proceedings of the 2005 ACM SIGPLAN Conference on Programming Language Design and Implementation},
+ series = {PLDI '05},
+ year = {2005},
+ isbn = {1-59593-056-6},
+ location = {Chicago, IL, USA},
+ pages = {213--223},
+ numpages = {11},
+ url = {http://doi.acm.org/10.1145/1065010.1065036},
+ doi = {10.1145/1065010.1065036},
+ acmid = {1065036},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+ keywords = {automated test generation, interfaces, program verification, random testing, software testing},
+}
+
+@article{sage,
+ author = {Godefroid, Patrice and Levin, Michael Y. and Molnar, David},
+ title = {SAGE: Whitebox Fuzzing for Security Testing},
+ journal = {Queue},
+ issue_date = {January 2012},
+ volume = {10},
+ number = {1},
+ month = "jan",
+ year = {2012},
+ issn = {1542-7730},
+ pages = {20:20--20:27},
+ articleno = {20},
+ numpages = {8},
+ url = {http://doi.acm.org/10.1145/2090147.2094081},
+ doi = {10.1145/2090147.2094081},
+ acmid = {2094081},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+}
+
+@article{may-must,
+ author = {Godefroid, Patrice and Nori, Aditya V. and Rajamani, Sriram K. and Tetali, Sai Deep},
+ title = {Compositional May-must Program Analysis: Unleashing the Power of Alternation},
+ journal = {SIGPLAN Not.},
+ issue_date = {January 2010},
+ volume = {45},
+ number = {1},
+ month = jan,
+ year = {2010},
+ issn = {0362-1340},
+ pages = {43--56},
+ numpages = {14},
+ url = {http://doi.acm.org/10.1145/1707801.1706307},
+ doi = {10.1145/1707801.1706307},
+ acmid = {1706307},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+ keywords = {abstraction refinement, directed testing, software model checking},
+}
+@article{cute,
+ author = {Sen, Koushik and Marinov, Darko and Agha, Gul},
+ title = {CUTE: A Concolic Unit Testing Engine for C},
+ journal = {SIGSOFT Softw. Eng. Notes},
+ issue_date = {September 2005},
+ volume = {30},
+ number = {5},
+ month = sep,
+ year = {2005},
+ issn = {0163-5948},
+ pages = {263--272},
+ numpages = {10},
+ url = {http://doi.acm.org/10.1145/1095430.1081750},
+ doi = {10.1145/1095430.1081750},
+ acmid = {1081750},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+ keywords = {concolic testing, data structure testing, explicit path model-checking, random testing, testing C programs, unit testing},
+}
 
 @inproceedings{csa-base,
  author = {Reps, Thomas and Horwitz, Susan and Sagiv, Mooly},
@@ -542,6 +663,22 @@
   language     = {english}
 }
 
+@MANUAL{misra,
+  title        = {MISRA-C:2004 – Guidelines for the use of the C language in critical systems},
+  year         = {2004},
+  publisher    = {MISRA},
+  language     = {english}
+}
+
+@MANUAL{jsf,
+  title        = {Joint Strike Fighter Air Vehicle C++ Coding Standards for the System Development and Demonstration Program},
+  organization = {Lockheed Martin Corporation},
+  edition      = {2RDU00001 Rev C},
+  month        = {dec},
+  year         = {2005},
+  language     = {english}
+}
+
 @MANUAL{gcc-man,
   title        = {gcc - GNU project C and C++ compiler manual page},
   organization = {Free Software Foundation},
@@ -567,6 +704,22 @@
   urldate = {13.08.2015},
   language = {english}
 }
+
+@inproceedings{waterfall,
+ author = {Bell, T. E. and Thayer, T. A.},
+ title = {Software Requirements: Are They Really a Problem?},
+ booktitle = {Proceedings of the 2Nd International Conference on Software Engineering},
+ series = {ICSE '76},
+ year = {1976},
+ location = {San Francisco, California, USA},
+ pages = {61--68},
+ numpages = {8},
+ url = {http://dl.acm.org/citation.cfm?id=800253.807650},
+ acmid = {807650},
+ publisher = {IEEE Computer Society Press},
+ address = {Los Alamitos, CA, USA},
+ keywords = {Ballistic missile defense, Requirements, Requirements problems, SREM, SREP, Software engineering, Software requirements, Software requirements engineering, Software requirements problems},
+} 
 
 @inproceedings{loopfrog-summary,
  author = {Tsitovich, Aliaksei and Sharygina, Natasha and Wintersteiger, Christoph M. and Kroening, Daniel},
@@ -619,6 +772,16 @@
   publisher = {СИНТЕГ},
   year = {2011},
   numpages = {408},
+  language = {russian}
+}
+
+@BOOK{tdd,
+  author = {Кент, Бек},
+  title = {Экстремальное программирование. Разработка через тестирование},
+  address = {СПб},
+  publisher = {Питер},
+  year = {2003},
+  numpages = {224},
   language = {russian}
 }
 
