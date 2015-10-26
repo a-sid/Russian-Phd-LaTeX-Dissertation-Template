@@ -14,6 +14,18 @@
 \def\bblnov{Nov.}
 \def\bbldec{Dec.}
 
+\usepackage{footbib}
+
+
+\makeatletter
+\footbibliographystyle{utf8gost705u}	% Оформляем библиографию в соответствии с ГОСТ 7.0.5
+\renewcommand{\@biblabel}[1]{#1.}	% Заменяем библиографию с квадратных скобок на точку:
+
+\renewcommand{\footcitelabel}[1]{#1}
+\renewcommand{\putfootcitelabel}[1]{\textsuperscript{#1}}
+\footcitelistformat{},{\penalty1000\relax}{}
+\renewcommand{\footreflabel}[1]{\textsuperscript{#1}}
+
 
 \input{packages}        % Пакеты
 \input{userpackages}    % Пакеты для специфических пользовательских задач
@@ -21,6 +33,7 @@
 \input{userstyles}      % Стили для специфических пользовательских задач
 \input{../biblio/bibliopreamble}% Настройки библиографии из внешнего файла (там же выбор: встроенная или на основе biblatex)
 \input{../common/data}  % Основные сведения
+\footbibliography{../biblio/othercites}
 
 \begin{document}
 
