@@ -1,0 +1,29 @@
+XTU:
+inl-128k.txt: 2189662381
+inl-16k.txt: 309297081
+inl-256k.txt: 4224418540
+inl-32k.txt: 596632714
+inl-64k.txt: 1143554721
+inl-8k.txt: 158165811
+summ-16k.txt: 2858356105
+summ-2k.txt: 401083292
+summ-32k.txt: 5436352382
+summ-4k.txt: 754450343
+summ-64k.txt: 10712862615
+summ-8k.txt: 1407398717
+
+Single:
+inl-128k.txt: 2554070889
+inl-16k.txt: 388724504
+inl-256k.txt: 4788920536
+inl-32k.txt: 728550979
+inl-512k.txt: 9019091013
+inl-64k.txt: 1363474845
+inl-8k.txt: 205368108
+summ-128k.txt: 8667111144
+summ-16k.txt: 1233946550
+summ-2k.txt: 192318931
+summ-32k.txt: 2315109732
+summ-4k.txt: 358546563
+summ-64k.txt: 4498251566
+summ-8k.txt: 675498018
