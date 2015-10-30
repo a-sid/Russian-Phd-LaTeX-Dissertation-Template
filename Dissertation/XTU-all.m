@@ -1,21 +1,56 @@
-time_inl=[26 33 47 73 127 236]
-inl=[5246 5773 6257 6644 6946 7335]
+function plot_stat(parsing_time, x1_args, y1_args, x2_args, y2_args)
+    plot(x1_args - parsing_time, y1_args,'x--', 'LineWidth', 3)
+    hold on
+    plot(x2_args .- parsing_time, y2_args, 'ro-','LineWidth', 3 )
+    hold off
 
-time_summ=[28 41 53 83 138 281 ]
-summ=[10259 11439 13439 14191 14465 14939]
+    grid on
 
-plot(time_inl, inl,'x--', 'LineWidth',3)
-hold on
-plot(time_summ,summ, 'ro-','LineWidth',3 )
+    h = findall (0, "-property", "fontname");
+    set (h, "fontsize", 14)
+    set (h, "fontname", "Times")
+    xlabel('Время анализа (мин)','FontSize', 14);
+    ylabel('Количество срабатываний','FontSize', 14);
+
+    strmatrix = ['Метод встраивания';'Метод резюме'];
+    legend(strmatrix, "location", "south")
+endfunction
 
 
-grid on
+parsing_time = 7
 
-h = findall (0, "-property", "fontname");
-set (h, "fontsize", 14)
-set (h, "fontname", "Times")
-xlabel('Время анализа (мин)','FontSize',14);
-ylabel('Количество срабатываний','FontSize',14);
+time_inl_xtu = [26 33 47 73 127 236]
+inl_xtu = [5246 5773 6257 6644 6946 7335]
 
-strmatrix = ['Метод встраивания';'Метод резюме'];
-legend(strmatrix, "location", "south")
+time_summ_xtu = [28 41 53 83 138 281]
+summ_xtu = [10259 11439 13439 14191 14465 14939]
+
+inl_uniq_xtu = [1769 1907 2048 2143 2194 2281]
+summ_uniq_xtu = [1715 1900 2066 2275 2326 2430]
+
+time_inl_single = [11 17 28 50 90 171 327]
+inl_single = [4001 4329 4549 4711 4885 5068 5196]
+
+time_summ_single = [9.5 12 19 32 52 98 180]
+summ_single = [4501 4876 5444 5674 5881 6047 6149]
+
+inl_uniq_single = [1506 1616 1703 1771 1828 1895 1933]
+summ_uniq_single = [1457 1591 1696 1773 1834 1886 1911]
+
+speed_inl_xtu = inl_uniq_xtu ./(time_inl_xtu .- parsing_time)
+speed_summ_xtu = summ_uniq_xtu ./(time_summ_xtu .- parsing_time)
+
+figure(1)
+plot_stat(parsing_time, time_inl_xtu, inl_xtu, time_summ_xtu, summ_xtu)
+
+figure(2)
+plot_stat(parsing_time, time_inl_xtu, inl_uniq_xtu, time_summ_xtu, summ_uniq_xtu)
+
+figure(3)
+plot_stat(parsing_time, time_inl_single, inl_single, time_summ_single, summ_single)
+
+figure(4)
+plot_stat(parsing_time, time_inl_single, inl_uniq_single, time_summ_single, summ_uniq_single)
+
+figure(5)
+plot_stat(parsing_time, time_inl_single, speed_inl_xtu, time_summ_single, speed_summ_xtu)
