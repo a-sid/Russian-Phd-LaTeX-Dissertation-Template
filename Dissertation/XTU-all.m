@@ -37,6 +37,12 @@ summ_single = [4501 4876 5444 5674 5881 6047 6149]
 inl_uniq_single = [1506 1616 1703 1771 1828 1895 1933]
 summ_uniq_single = [1457 1591 1696 1773 1834 1886 1911]
 
+inl_nodes_single = [205368108 388724504 728550979 1363474845 2554070889 4788920536 9019091013]
+summ_nodes_single = [192318931 358546563 675498018 1233946550 2315109732 4498251566 8667111144]
+
+inl_nodes_xtu = [158165811 309297081 596632714 1143554721 2189662381 4224418540]
+summ_nodes_xtu = [401083292 754450343 1407398717 2858356105 5436352382 10712862615]
+
 speed_inl_xtu = inl_uniq_xtu ./(time_inl_xtu .- parsing_time)
 speed_summ_xtu = summ_uniq_xtu ./(time_summ_xtu .- parsing_time)
 
@@ -53,4 +59,10 @@ figure(4)
 plot_stat(parsing_time, time_inl_single, inl_uniq_single, time_summ_single, summ_uniq_single)
 
 figure(5)
-plot_stat(parsing_time, time_inl_single, speed_inl_xtu, time_summ_single, speed_summ_xtu)
+plot_stat(parsing_time, time_inl_xtu, speed_inl_xtu, time_summ_xtu, speed_summ_xtu)
+
+figure(6)
+plot_stat(parsing_time, time_inl_single, inl_nodes_single, time_summ_single, summ_nodes_single)
+
+figure(7)
+plot_stat(parsing_time, time_inl_xtu, inl_nodes_xtu, time_summ_xtu, summ_nodes_xtu)
