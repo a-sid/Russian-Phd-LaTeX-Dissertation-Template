@@ -1,14 +1,20 @@
-function plot_stat(parsing_time, x1_args, y1_args, x2_args, y2_args)
-    plot(x1_args - parsing_time, y1_args,'x--', 'LineWidth', 3)
+function plot_stat(parsing_time, x1_args, y1_args, x2_args, y2_args, is_log)
+    if (is_log)
+        plot_func = @semilogy
+    else
+        plot_func = @plot
+    endif
+
+    plot_func(x1_args - parsing_time, y1_args,'x--', 'LineWidth', 3)
     hold on
-    plot(x2_args .- parsing_time, y2_args, 'ro-','LineWidth', 3 )
+    plot_func(x2_args .- parsing_time, y2_args, 'ro-','LineWidth', 3 )
     hold off
 
     grid on
 
     h = findall (0, "-property", "fontname");
     set (h, "fontsize", 14)
-    set (h, "fontname", "Times")
+%    set (h, "fontname", "Times")
     xlabel('Время анализа (мин)','FontSize', 14);
     ylabel('Количество срабатываний','FontSize', 14);
 
@@ -29,16 +35,16 @@ inl_uniq_xtu = [1769 1907 2048 2143 2194 2281]
 summ_uniq_xtu = [1715 1900 2066 2275 2326 2430]
 
 time_inl_single = [11 17 28 50 90 171 327]
-inl_single = [4001 4329 4549 4711 4885 5068 5196]
+inl_single = [81861 164551 318558 624176 1199886 2242228 4189537]
 
 time_summ_single = [9.5 12 19 32 52 98 180]
-summ_single = [4501 4876 5444 5674 5881 6047 6149]
+summ_single = [209038 366782 658994 1174869 2358712 4465568 8661287]
 
 inl_uniq_single = [1506 1616 1703 1771 1828 1895 1933]
 summ_uniq_single = [1457 1591 1696 1773 1834 1886 1911]
 
-inl_nodes_single = [205368108 388724504 728550979 1363474845 2554070889 4788920536 9019091013]
-summ_nodes_single = [192318931 358546563 675498018 1233946550 2315109732 4498251566 8667111144]
+inl_nodes_single = [269801191 499507572 925027113 1718978657 3208768930 6005462215 11308674270]
+summ_nodes_single = [1939686032 3902559195 8491119427 16767914709 33070365021 66983139115 136701742738]
 
 inl_nodes_xtu = [158165811 309297081 596632714 1143554721 2189662381 4224418540]
 summ_nodes_xtu = [401083292 754450343 1407398717 2858356105 5436352382 10712862615]
