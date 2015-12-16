@@ -5,6 +5,9 @@
 \usepackage{amssymb,amsfonts,amsmath,mathtext}
 \usepackage{cite,enumerate,float,indentfirst}
 
+\usepackage{tikz}
+\usetikzlibrary{positioning,arrows}
+
 \graphicspath{{images/}}
 
 \usetheme{Pittsburgh}
@@ -28,7 +31,7 @@
 
 \newcommand{\itemi}{\item[\checkmark]}
 
-\title{\small{Новая модификация метода анализа кодов программ на основе резюме для тестирования сложных программных комплексов}}
+\title{\small{Разработка и  исследование методов межпроцедурного и межмодульного анализа кодов программ, написанных на языках  С и С++, применимых для анализа крупных систем}}
 \author{\small{%
 \emph{Выступающий:}~А.В.~Сидорин\\%
 \emph{Руководитель:}~доцент,~к.ф.-м.н.~Т.Н.~Романова}\\%
@@ -41,6 +44,111 @@
 \begin{document}
 
 \maketitle
+
+\begin{frame}
+\frametitle{Статический анализ в ЖЦ ПО}
+\begin{figure}[h]
+  \begin{minipage}[h]{\linewidth}
+    \textbf{<<Водопадный>> ЖЦ}
+    \center{\includegraphics[width=1\linewidth]{../Dissertation/images/lifecycle-waterfall.pdf}}
+  \end{minipage}
+  \vfill
+  \begin{minipage}[h]{\linewidth}
+    \textbf{ЖЦ безопасного ПО}
+    \center{\includegraphics[width=1\linewidth]{../Dissertation/images/ms-sdl.pdf}}
+  \end{minipage}
+\end{figure}
+\end{frame}
+
+
+\begin{frame}
+\frametitle{Характеристики статического анализа}
+\begin{figure}[h]
+\begin{tikzpicture}[thick,
+                    node distance=3cm,
+                    text height=1.5ex,
+                    text depth=.25ex,
+                    auto]
+\tikzstyle{format} = [ellipse,
+                      thick,
+                      minimum size=1cm,
+                      draw=black,
+                      top color=white,
+                      drop shadow]
+
+\tikzstyle{selected} = [ellipse,
+                      thick,
+                      minimum size=1cm,
+                      draw=black,
+                      top color=gray,
+                      drop shadow]
+\node[format]       (char) {Характеристики анализа};
+\node[selected,below of=char]  (compl) {Полнота};
+\node[selected,right of=compl] (prec)  {Точность};
+\node[format,left  of=compl] (speed) {Скорость};
+
+\path[->] (char) edge node {} (compl);
+\path[->] (char) edge node {} (prec);
+\path[->] (char) edge node {} (speed);
+\path[<->] (prec) edge node {} (compl);
+\path[<->,draw] (speed) -- +(0,-1) -| node[near start] {} (prec);
+\path[<->] (compl) edge node {} (speed);
+\end{tikzpicture}
+\end{figure}
+\end{frame}
+
+
+\begin{frame}
+\frametitle{Метод символьного выполнения}
+\begin{figure}[h]
+  \center{\includegraphics[height=0.7\linewidth]{../Dissertation/images/article-1-symexec-sample.pdf}}
+\end{figure}
+\end{frame}
+
+\begin{frame}
+\frametitle{МПА с помощью резюме}
+\begin{figure}[h]
+(Картинка из презентации)
+  \center{\includegraphics[width=1\linewidth]{../Dissertation/images/}}
+\end{figure}
+\end{frame}
+
+\begin{frame}
+\frametitle{Межмодульный анализ}
+\begin{figure}[h]
+  \center{\includegraphics[width=\linewidth]{../Dissertation/images/xtu-idef0-2.pdf}}
+\end{figure}
+\end{frame}
+
+
+\begin{frame}
+\frametitle{Покрытие~--- внутримодульный анализ}
+\begin{figure}[h]
+  \center{\includegraphics[width=0.8\linewidth]{../Dissertation/images/single-nodes.pdf}}
+\end{figure}
+\end{frame}
+
+\begin{frame}
+\frametitle{Покрытие~--- межмодульный анализ}
+\begin{figure}[h]
+  \center{\includegraphics[width=0.8\linewidth]{../Dissertation/images/xtu-nodes.pdf}}
+\end{figure}
+\end{frame}
+
+\begin{frame}
+\frametitle{Поиск дефектов~--- внутримодульный анализ}
+\begin{figure}[h]
+  \center{\includegraphics[width=0.8\linewidth]{../Dissertation/images/single-unique.pdf}}
+\end{figure}
+\end{frame}
+
+\begin{frame}
+\frametitle{Поиск дефектов~--- межмодульный анализ}
+\begin{figure}[h]
+  \center{\includegraphics[width=0.8\linewidth]{../Dissertation/images/xtu-unique.pdf}}
+\end{figure}
+\end{frame}
+
 
 \begin{frame}
 \frametitle{Цель работы}
