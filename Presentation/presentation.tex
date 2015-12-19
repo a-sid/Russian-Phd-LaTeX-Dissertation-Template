@@ -60,6 +60,33 @@
 \end{figure}
 \end{frame}
 
+\begin{frame}
+\frametitle{Крупные и сложные программные системы}
+\begin{figure}[h]
+\begin{tikzpicture}[thick,
+                    text height=4ex,
+                    text depth=.25ex,
+                    text centered]
+\tikzstyle{format} = [ellipse,
+                      thick,
+                      minimum size=1cm,
+                      draw=black,
+                      top color=white,
+                      drop shadow,
+                      align=center]
+  \matrix (mat) [matrix of nodes, nodes=format, column sep=10mm, row sep=5mm] 
+{
+\node[format] (big-def) {Большая система}; & & \node[format] (comp-def) {Сложные\\системы}; \\
+\node[format] (big-term) {Большая размерность\\множества состояний}; & & \node[format] (comp-term) {Структурная\\сложность};\\
+\node[format] (big-conc)  {Моделирование\\затруднено}; & & \node[format] (comp-conc)  {Трудноотслеживаемые\\связи};\\
+};
+\path[->] (big-def) edge node {} (big-term);
+\path[->] (big-term) edge node {} (big-conc);
+\path[->] (comp-def) edge node {} (comp-term);
+\path[->] (comp-term) edge node {} (comp-conc);
+\end{tikzpicture}
+\end{figure}
+\end{frame}
 
 \begin{frame}
 \frametitle{Характеристики статического анализа}
@@ -116,7 +143,7 @@
 \begin{frame}
 \frametitle{Межмодульный анализ}
 \begin{figure}[h]
-  \center{\includegraphics[width=\linewidth]{../Dissertation/images/xtu-idef0-2.pdf}}
+  \center{\includegraphics[width=\linewidth]{../Dissertation/images/xtu-idef0-3.pdf}}
 \end{figure}
 \end{frame}
 
