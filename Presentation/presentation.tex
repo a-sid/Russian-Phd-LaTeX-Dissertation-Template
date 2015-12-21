@@ -1,12 +1,14 @@
-\documentclass[14pt]{beamer}
+\pdfoptionpdfminorversion=5
+\documentclass[hyperref={pdfpagelabels=false}]{beamer}
 \usepackage[T2A]{fontenc}
 \usepackage[utf8]{inputenc}
 \usepackage[english,russian]{babel}
 \usepackage{amssymb,amsfonts,amsmath,mathtext}
 \usepackage{cite,enumerate,float,indentfirst}
 
+ 
 \usepackage{tikz}
-\usetikzlibrary{positioning,arrows}
+\usetikzlibrary{positioning,arrows,matrix}
 
 \graphicspath{{images/}}
 
@@ -63,22 +65,21 @@
 \begin{frame}
 \frametitle{Крупные и сложные программные системы}
 \begin{figure}[h]
-\begin{tikzpicture}[thick,
+\begin{tikzpicture}[ampersand replacement=\&,
+                    thick,
                     text height=4ex,
                     text depth=.25ex,
                     text centered]
-\tikzstyle{format} = [ellipse,
-                      thick,
+\tikzstyle{format} = [thick,
                       minimum size=1cm,
                       draw=black,
                       top color=white,
-                      drop shadow,
                       align=center]
   \matrix (mat) [matrix of nodes, nodes=format, column sep=10mm, row sep=5mm] 
 {
-\node[format] (big-def) {Большая система}; & & \node[format] (comp-def) {Сложные\\системы}; \\
-\node[format] (big-term) {Большая размерность\\множества состояний}; & & \node[format] (comp-term) {Структурная\\сложность};\\
-\node[format] (big-conc)  {Моделирование\\затруднено}; & & \node[format] (comp-conc)  {Трудноотслеживаемые\\связи};\\
+\node[format] (big-def) {Большая система}; \& \node[format] (comp-def) {Сложные\\системы}; \\
+\node[format] (big-term) {Большая размерность\\множества состояний}; \& \node[format] (comp-term) {Структурная\\сложность};\\
+\node[format] (big-conc)  {Моделирование\\затруднено}; \& \node[format] (comp-conc)  {Трудноотслеживаемые\\связи};\\
 };
 \path[->] (big-def) edge node {} (big-term);
 \path[->] (big-term) edge node {} (big-conc);
@@ -91,24 +92,20 @@
 \begin{frame}
 \frametitle{Характеристики статического анализа}
 \begin{figure}[h]
-\begin{tikzpicture}[thick,
+\begin{tikzpicture}[thick,anchor=base,
                     node distance=3cm,
                     text height=1.5ex,
                     text depth=.25ex,
                     auto]
-\tikzstyle{format} = [ellipse,
-                      thick,
+\tikzstyle{format} = [thick,
                       minimum size=1cm,
                       draw=black,
-                      top color=white,
-                      drop shadow]
+                      top color=white]
 
-\tikzstyle{selected} = [ellipse,
-                      thick,
+\tikzstyle{selected} = [thick,
                       minimum size=1cm,
                       draw=black,
-                      top color=gray,
-                      drop shadow]
+                      top color=gray]
 \node[format]       (char) {Характеристики анализа};
 \node[selected,below of=char]  (compl) {Полнота};
 \node[selected,right of=compl] (prec)  {Точность};
@@ -127,6 +124,36 @@
 \begin{frame}
 \frametitle{Актуальность}
 Сложность систем и их критичность растёт, нужны новые методы автоматического тестирования..., универсальный анализатор, ограниченное время..., невозможность решения проблемы в общем виде, хотя отдельные формальные подходы существуют.
+\end{frame}
+
+\begin{frame}
+\frametitle{Актуальность}
+\begin{figure}[h]
+\begin{tikzpicture}[ampersand replacement=\&,thick,anchor=base,
+                    node distance=3cm,
+                    text height=4ex,
+                    text depth=.25ex,
+                      align=center]
+\tikzstyle{format} = [anchor=base,thick,
+                      minimum size=1cm,
+                      draw=black,
+                      top color=white]
+
+\tikzstyle{selected} = [thick,
+                      minimum size=1cm,
+                      draw=black,
+                      top color=gray]
+  \matrix (mat) [matrix of nodes, nodes=format, column sep=5mm, row sep=15mm] 
+{
+\node[format] (int) {Интеграция в ЖЦ}; \& \node[selected]       (char) {Проблемы анализа}; \& \node[format] (univ) {Универсальность};\\
+\node[format]  (compl) {Рост сложности\\программ}; \& \& \node[format] (prec)  {Рост объёмов\\кода}; \\
+};
+\path[->] (char) edge node {} (compl);
+\path[->] (char) edge node {} (prec);
+\path[->] (char) edge node {} (univ);
+\path[->] (char) edge node {} (int);
+\end{tikzpicture}
+\end{figure}
 \end{frame}
 
 \begin{frame}
@@ -168,7 +195,7 @@
 \frametitle{МПА с помощью резюме}
 \begin{figure}[h]
 (Картинка из презентации)
-  \center{\includegraphics[width=1\linewidth]{../Dissertation/images/}}
+  \center{\includegraphics[width=1\linewidth]{../Dissertation/images/xtu-idef0-3.pdf}}
 \end{figure}
 \end{frame}
 
