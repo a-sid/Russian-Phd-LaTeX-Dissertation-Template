@@ -81,6 +81,36 @@
 \end{figure}
 \end{frame}
 %--------------------------------------------------------------------------------------------------------
+% TODO: Расписать все виды сложности в диаграмме по исходному документу
+\begin{frame}
+\frametitle{Крупные и сложные программные системы}
+\begin{figure}[h]
+\begin{tikzpicture}[ampersand replacement=\&,
+                    thick,
+                    text height=7ex,
+                    text depth=.25ex,
+                    text centered]
+\tikzstyle{format} = [thick,
+                      minimum size=1cm,
+                      draw=black,
+                      top color=white,
+                      align=center]
+  \matrix (mat) [matrix of nodes, nodes=format, column sep=10mm, row sep=5mm] 
+{
+\& \node[format] (comp-def) {Сложные\\системы}; \& \\
+\node[format] (dyn) {Динамическая\\сложность}; \& \node[format] (comp-term) {Структурная\\сложность}; \& \node[format] (info) {Информационная\\сложность};\\
+\node[format] (dyn-def) {Сложная\\динамика\\системы}; \& \node[format] (comp-conc)  {Трудно\\отслеживаемые\\связи}; \& \node[format] (info-def) {Сложное\\описание\\системы};\\
+};
+\path[->] (comp-def) edge node {} (comp-term);
+\path[->] (comp-term) edge node {} (comp-conc);
+\path[->] (comp-def) edge node {} (dyn);
+\path[->] (dyn) edge node {} (dyn-def);
+\path[->] (comp-def) edge node {} (info);
+\path[->] (info) edge node {} (info-def);
+\end{tikzpicture}
+\end{figure}
+\end{frame}
+%--------------------------------------------------------------------------------------------------------
 
 \begin{frame}
 \frametitle{Анализируемые объёмы кодов программ}

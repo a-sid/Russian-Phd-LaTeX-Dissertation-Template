@@ -1,0 +1,693 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1889.4111"
+   height="515.51007"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="ms-sdl-sel.svg">
+  <defs
+     id="defs4">
+    <linearGradient
+       id="linearGradient3926">
+      <stop
+         id="stop3928"
+         offset="0"
+         style="stop-color:#30c928;stop-opacity:1;" />
+      <stop
+         id="stop3930"
+         offset="1"
+         style="stop-color:#30c928;stop-opacity:0;" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient3757">
+      <stop
+         style="stop-color:#ff7f00;stop-opacity:1"
+         offset="0"
+         id="stop3759" />
+      <stop
+         style="stop-color:#ff7f00;stop-opacity:0"
+         offset="1"
+         id="stop3761" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3757-1"
+       id="linearGradient3763"
+       x1="188.89853"
+       y1="151.80864"
+       x2="189.39084"
+       y2="48.773075"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3757-1"
+       id="linearGradient3763-9"
+       x1="188.89853"
+       y1="151.80864"
+       x2="189.39084"
+       y2="48.773075"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       id="linearGradient3757-1">
+      <stop
+         style="stop-color:#3081ff;stop-opacity:1;"
+         offset="0"
+         id="stop3759-6" />
+      <stop
+         style="stop-color:#3081ff;stop-opacity:0;"
+         offset="1"
+         id="stop3761-7" />
+    </linearGradient>
+    <linearGradient
+       gradientTransform="matrix(0.99721516,0,0,3.8760541,-1.6789764,-15.312302)"
+       y2="48.773075"
+       x2="189.39084"
+       y1="151.80864"
+       x1="188.89853"
+       gradientUnits="userSpaceOnUse"
+       id="linearGradient3789"
+       xlink:href="#linearGradient3757-1"
+       inkscape:collect="always" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3926"
+       id="linearGradient3899"
+       gradientUnits="userSpaceOnUse"
+       x1="188.89853"
+       y1="151.80864"
+       x2="189.39084"
+       y2="48.773075"
+       gradientTransform="translate(265.71429,0)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3926"
+       id="linearGradient3901"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.99721516,0,0,3.8760541,263.87689,-15.312302)"
+       x1="188.89853"
+       y1="151.80864"
+       x2="189.39084"
+       y2="48.773075" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3926"
+       id="linearGradient3962"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(530,0)"
+       x1="188.89853"
+       y1="151.80864"
+       x2="189.39084"
+       y2="48.773075" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3926"
+       id="linearGradient3964"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.99721516,0,0,3.8760541,528.1626,-15.312302)"
+       x1="188.89853"
+       y1="151.80864"
+       x2="189.39084"
+       y2="48.773075" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3926"
+       id="linearGradient4009"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(795.71429,0)"
+       x1="188.89853"
+       y1="151.80864"
+       x2="189.39084"
+       y2="48.773075" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3926"
+       id="linearGradient4011"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.99721516,0,0,3.8760541,793.87689,-15.312302)"
+       x1="188.89853"
+       y1="151.80864"
+       x2="189.39084"
+       y2="48.773075" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3926"
+       id="linearGradient4066"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(1061.7143,0)"
+       x1="188.89853"
+       y1="151.80864"
+       x2="189.39084"
+       y2="48.773075" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3926"
+       id="linearGradient4068"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.99721516,0,0,3.8760541,1059.8769,-15.312302)"
+       x1="188.89853"
+       y1="151.80864"
+       x2="189.39084"
+       y2="48.773075" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3926"
+       id="linearGradient4126"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(1329.7143,0)"
+       x1="188.89853"
+       y1="151.80864"
+       x2="189.39084"
+       y2="48.773075" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3926"
+       id="linearGradient4128"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.99721516,0,0,3.8760541,1327.8769,-15.312302)"
+       x1="188.89853"
+       y1="151.80864"
+       x2="189.39084"
+       y2="48.773075" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3757"
+       id="linearGradient3470"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(1595.7143,0)"
+       x1="188.89853"
+       y1="151.80864"
+       x2="189.39084"
+       y2="48.773075" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3757"
+       id="linearGradient3472"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.99721516,0,0,3.8760541,1593.8769,-15.312302)"
+       x1="188.89853"
+       y1="151.80864"
+       x2="189.39084"
+       y2="48.773075" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.7"
+     inkscape:cx="1023.8517"
+     inkscape:cy="167.77025"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1787"
+     inkscape:window-height="1043"
+     inkscape:window-x="133"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-58.56278,-48.780704)">
+    <path
+       style="fill:url(#linearGradient3763);fill-opacity:1;stroke:#000000;stroke-opacity:1"
+       d="m 61.619305,49.280704 249.999995,0 40,49.999998 -40,49.999998 -249.999995,0 39.999995,-49.999998 z"
+       id="rect3755"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccccc" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:28px;line-height:125%;font-family:'Ubuntu Condensed';-inkscape-font-specification:'Ubuntu Condensed,';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
+       x="142.27994"
+       y="107.29813"
+       id="text3768"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3770"
+         x="142.27994"
+         y="107.29813">Обучение</tspan></text>
+    <path
+       style="fill:url(#linearGradient3789);fill-opacity:1;stroke:#000000;stroke-width:1.96602643;stroke-opacity:1"
+       d="m 59.768723,175.70234 249.303797,0 39.8886,193.8027 -39.8886,193.8027 -249.303797,0 39.888607,-193.8027 z"
+       id="rect3755-6"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccccc" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:28px;line-height:125%;font-family:'Ubuntu Condensed';-inkscape-font-specification:'Ubuntu Condensed,';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
+       x="142.51778"
+       y="336.09387"
+       id="text3768-6"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3770-9"
+         x="142.51778"
+         y="336.09387">Обучение</tspan><tspan
+         sodipodi:role="line"
+         x="142.51778"
+         y="371.09387"
+         id="tspan3812">базовой</tspan><tspan
+         sodipodi:role="line"
+         x="142.51778"
+         y="406.09387"
+         id="tspan3814">безопасности</tspan></text>
+    <path
+       sodipodi:nodetypes="ccccccc"
+       inkscape:connector-curvature="0"
+       id="path3883"
+       d="m 327.33359,49.280704 250,0 40,49.999998 -40,49.999998 -250,0 40,-49.999998 z"
+       style="fill:url(#linearGradient3899);fill-opacity:1;stroke:#000000;stroke-opacity:1" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text3885"
+       y="107.29813"
+       x="407.99423"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:28px;line-height:125%;font-family:'Ubuntu Condensed';-inkscape-font-specification:'Ubuntu Condensed,';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
+       xml:space="preserve"><tspan
+         y="107.29813"
+         x="407.99423"
+         id="tspan3887"
+         sodipodi:role="line">Требования</tspan></text>
+    <path
+       sodipodi:nodetypes="ccccccc"
+       inkscape:connector-curvature="0"
+       id="path3889"
+       d="m 325.32459,175.70234 249.30379,0 39.88861,193.8027 -39.88861,193.8027 -249.30379,0 39.8886,-193.8027 z"
+       style="fill:url(#linearGradient3901);fill-opacity:1;stroke:#000000;stroke-width:1.96602643;stroke-opacity:1" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text3891"
+       y="226.09387"
+       x="385.37491"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:28px;line-height:125%;font-family:'Ubuntu Condensed';-inkscape-font-specification:'Ubuntu Condensed,';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
+       xml:space="preserve"><tspan
+         id="tspan3897"
+         y="226.09387"
+         x="385.37491"
+         sodipodi:role="line">Определение </tspan><tspan
+         y="261.09387"
+         x="385.37491"
+         sodipodi:role="line"
+         id="tspan3908">требований</tspan><tspan
+         y="296.09387"
+         x="385.37491"
+         sodipodi:role="line"
+         id="tspan3910">безопасности</tspan><tspan
+         y="331.09387"
+         x="385.37491"
+         sodipodi:role="line"
+         id="tspan3912" /><tspan
+         y="366.09387"
+         x="385.37491"
+         sodipodi:role="line"
+         id="tspan3914">Создание</tspan><tspan
+         y="401.09387"
+         x="385.37491"
+         sodipodi:role="line"
+         id="tspan3916">стандартов</tspan><tspan
+         y="436.09387"
+         x="385.37491"
+         sodipodi:role="line"
+         id="tspan3918">качества</tspan><tspan
+         y="471.09387"
+         x="385.37491"
+         sodipodi:role="line"
+         id="tspan3920" /><tspan
+         y="506.09387"
+         x="385.37491"
+         sodipodi:role="line"
+         id="tspan3922">Оценка рисков</tspan><tspan
+         y="541.09387"
+         x="385.37491"
+         sodipodi:role="line"
+         id="tspan3924">безопасности</tspan></text>
+    <path
+       style="fill:url(#linearGradient3962);fill-opacity:1;stroke:#000000;stroke-opacity:1"
+       d="m 591.6193,49.280704 250,0 40,49.999998 -40,49.999998 -250,0 40,-49.999998 z"
+       id="path3932"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccccc" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:28px;line-height:125%;font-family:'Ubuntu Condensed';-inkscape-font-specification:'Ubuntu Condensed,';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
+       x="650.85138"
+       y="107.29813"
+       id="text3934"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3936"
+         x="650.85138"
+         y="107.29813">Проектирование</tspan></text>
+    <path
+       style="fill:url(#linearGradient3964);fill-opacity:1;stroke:#000000;stroke-width:1.96602643;stroke-opacity:1"
+       d="m 589.6103,175.70234 249.30379,0 39.88861,193.8027 -39.88861,193.8027 -249.30379,0 39.8886,-193.8027 z"
+       id="path3938"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccccc" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:28px;line-height:125%;font-family:'Ubuntu Condensed';-inkscape-font-specification:'Ubuntu Condensed,';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
+       x="643.66064"
+       y="238.09387"
+       id="text3940"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="643.66064"
+         y="238.09387"
+         id="tspan3942">Определение </tspan><tspan
+         id="tspan3944"
+         sodipodi:role="line"
+         x="643.66064"
+         y="273.09387">требований</tspan><tspan
+         id="tspan3946"
+         sodipodi:role="line"
+         x="643.66064"
+         y="308.09387">проектирования</tspan><tspan
+         id="tspan3948"
+         sodipodi:role="line"
+         x="643.66064"
+         y="343.09387" /><tspan
+         id="tspan3954"
+         sodipodi:role="line"
+         x="643.66064"
+         y="378.09387">Анализ атак</tspan><tspan
+         sodipodi:role="line"
+         x="643.66064"
+         y="413.09387"
+         id="tspan3979" /><tspan
+         id="tspan3956"
+         sodipodi:role="line"
+         x="643.66064"
+         y="448.09387" /><tspan
+         id="tspan3960"
+         sodipodi:role="line"
+         x="643.66064"
+         y="483.09387">Моделирование</tspan><tspan
+         sodipodi:role="line"
+         x="643.66064"
+         y="518.09387"
+         id="tspan3977">угроз</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       x="944.28571"
+       y="109.50504"
+       id="text3966"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3968"
+         x="944.28571"
+         y="109.50504" /></text>
+    <path
+       sodipodi:nodetypes="ccccccc"
+       inkscape:connector-curvature="0"
+       id="path3981"
+       d="m 857.33359,49.280704 250.00001,0 40,49.999998 -40,49.999998 -250.00001,0 40,-49.999998 z"
+       style="fill:url(#linearGradient4009);fill-opacity:1;stroke:#000000;stroke-opacity:1" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text3983"
+       y="107.29813"
+       x="946.56567"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:28px;line-height:125%;font-family:'Ubuntu Condensed';-inkscape-font-specification:'Ubuntu Condensed,';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
+       xml:space="preserve"><tspan
+         y="107.29813"
+         x="946.56567"
+         id="tspan3985"
+         sodipodi:role="line">Реализация</tspan></text>
+    <path
+       sodipodi:nodetypes="ccccccc"
+       inkscape:connector-curvature="0"
+       id="path3987"
+       d="m 855.32459,175.70234 249.30381,0 39.8886,193.8027 -39.8886,193.8027 -249.30381,0 39.8886,-193.8027 z"
+       style="fill:url(#linearGradient4011);fill-opacity:1;stroke:#000000;stroke-width:1.96602643;stroke-opacity:1" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text3989"
+       y="202.09387"
+       x="909.37494"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:28px;line-height:125%;font-family:'Ubuntu Condensed';-inkscape-font-specification:'Ubuntu Condensed,';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
+       xml:space="preserve"><tspan
+         y="202.09387"
+         x="909.37494"
+         sodipodi:role="line"
+         id="tspan3995">Использование</tspan><tspan
+         y="237.09387"
+         x="909.37494"
+         sodipodi:role="line"
+         id="tspan4018">одобренных</tspan><tspan
+         y="272.09387"
+         x="909.37494"
+         sodipodi:role="line"
+         id="tspan4020">инструментов</tspan><tspan
+         y="307.09387"
+         x="909.37494"
+         sodipodi:role="line"
+         id="tspan3997" /><tspan
+         y="342.09387"
+         x="909.37494"
+         sodipodi:role="line"
+         id="tspan3999">Избежание</tspan><tspan
+         y="377.09387"
+         x="909.37494"
+         sodipodi:role="line"
+         id="tspan4022">устаревших</tspan><tspan
+         y="412.09387"
+         x="909.37494"
+         sodipodi:role="line"
+         id="tspan4024">и небезопасных</tspan><tspan
+         y="447.09387"
+         x="909.37494"
+         sodipodi:role="line"
+         id="tspan4026">функций</tspan><tspan
+         y="482.09387"
+         x="909.37494"
+         sodipodi:role="line"
+         id="tspan4003" /><tspan
+         id="tspan4007"
+         y="517.09387"
+         x="909.37494"
+         sodipodi:role="line">Статический</tspan><tspan
+         y="552.09387"
+         x="909.37494"
+         sodipodi:role="line"
+         id="tspan4032">анализ</tspan></text>
+    <path
+       style="fill:url(#linearGradient4066);fill-opacity:1;stroke:#000000;stroke-opacity:1"
+       d="m 1123.3336,49.280704 250,0 40,49.999998 -40,49.999998 -250,0 40,-49.999998 z"
+       id="path4034"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccccc" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:28px;line-height:125%;font-family:'Ubuntu Condensed';-inkscape-font-specification:'Ubuntu Condensed,';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
+       x="1202.5657"
+       y="107.29813"
+       id="text4036"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4038"
+         x="1202.5657"
+         y="107.29813">Верификация</tspan></text>
+    <path
+       style="fill:url(#linearGradient4068);fill-opacity:1;stroke:#000000;stroke-width:1.96602643;stroke-opacity:1"
+       d="m 1121.3246,175.70234 249.3038,0 39.8886,193.8027 -39.8886,193.8027 -249.3038,0 39.8886,-193.8027 z"
+       id="path4040"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccccc" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:28px;line-height:125%;font-family:'Ubuntu Condensed';-inkscape-font-specification:'Ubuntu Condensed,';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
+       x="1175.3749"
+       y="212.09387"
+       id="text4042"
+       sodipodi:linespacing="125%"><tspan
+         id="tspan4048"
+         sodipodi:role="line"
+         x="1175.3749"
+         y="212.09387">Динамический</tspan><tspan
+         sodipodi:role="line"
+         x="1175.3749"
+         y="247.09387"
+         id="tspan4075">анализ</tspan><tspan
+         sodipodi:role="line"
+         x="1175.3749"
+         y="282.09387"
+         id="tspan4092" /><tspan
+         id="tspan4050"
+         sodipodi:role="line"
+         x="1175.3749"
+         y="317.09387" /><tspan
+         id="tspan4058"
+         sodipodi:role="line"
+         x="1175.3749"
+         y="352.09387">Нечёткое</tspan><tspan
+         sodipodi:role="line"
+         x="1175.3749"
+         y="387.09387"
+         id="tspan4086">тестирование</tspan><tspan
+         id="tspan4060"
+         sodipodi:role="line"
+         x="1175.3749"
+         y="422.09387" /><tspan
+         sodipodi:role="line"
+         x="1175.3749"
+         y="457.09387"
+         id="tspan4094" /><tspan
+         id="tspan4064"
+         sodipodi:role="line"
+         x="1175.3749"
+         y="492.09387">Обзор векторов </tspan><tspan
+         sodipodi:role="line"
+         x="1175.3749"
+         y="527.09387"
+         id="tspan4090">атак</tspan></text>
+    <path
+       sodipodi:nodetypes="ccccccc"
+       inkscape:connector-curvature="0"
+       id="path4096"
+       d="m 1391.3336,49.280704 250,0 40,49.999998 -40,49.999998 -250,0 40,-49.999998 z"
+       style="fill:url(#linearGradient4126);fill-opacity:1;stroke:#000000;stroke-opacity:1" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text4098"
+       y="107.29813"
+       x="1506.5657"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:28px;line-height:125%;font-family:'Ubuntu Condensed';-inkscape-font-specification:'Ubuntu Condensed,';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
+       xml:space="preserve"><tspan
+         y="107.29813"
+         x="1506.5657"
+         id="tspan4100"
+         sodipodi:role="line">Выпуск</tspan></text>
+    <path
+       sodipodi:nodetypes="ccccccc"
+       inkscape:connector-curvature="0"
+       id="path4102"
+       d="m 1389.3246,175.70234 249.3038,0 39.8886,193.8027 -39.8886,193.8027 -249.3038,0 39.8886,-193.8027 z"
+       style="fill:url(#linearGradient4128);fill-opacity:1;stroke:#000000;stroke-width:1.96602643;stroke-opacity:1" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text4104"
+       y="212.09387"
+       x="1443.3749"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:28px;line-height:125%;font-family:'Ubuntu Condensed';-inkscape-font-specification:'Ubuntu Condensed,';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
+       xml:space="preserve"><tspan
+         id="tspan4108"
+         y="212.09387"
+         x="1443.3749"
+         sodipodi:role="line">План реакций</tspan><tspan
+         y="247.09387"
+         x="1443.3749"
+         sodipodi:role="line"
+         id="tspan4132">на инциденты</tspan><tspan
+         id="tspan4110"
+         y="282.09387"
+         x="1443.3749"
+         sodipodi:role="line" /><tspan
+         y="317.09387"
+         x="1443.3749"
+         sodipodi:role="line"
+         id="tspan4112" /><tspan
+         id="tspan4116"
+         y="352.09387"
+         x="1443.3749"
+         sodipodi:role="line">Окончательная</tspan><tspan
+         y="387.09387"
+         x="1443.3749"
+         sodipodi:role="line"
+         id="tspan4136">проверка</tspan><tspan
+         y="422.09387"
+         x="1443.3749"
+         sodipodi:role="line"
+         id="tspan4138">безопасности</tspan><tspan
+         id="tspan4120"
+         y="457.09387"
+         x="1443.3749"
+         sodipodi:role="line" /><tspan
+         y="492.09387"
+         x="1443.3749"
+         sodipodi:role="line"
+         id="tspan4144" /><tspan
+         id="tspan4124"
+         y="527.09387"
+         x="1443.3749"
+         sodipodi:role="line">Архив выпусков</tspan></text>
+    <path
+       style="fill:url(#linearGradient3470);fill-opacity:1;stroke:#000000;stroke-opacity:1"
+       d="m 1657.3336,49.280704 250,0 40,49.999998 -40,49.999998 -250,0 40,-49.999998 z"
+       id="path3440"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccccc" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:28px;line-height:125%;font-family:'Ubuntu Condensed';-inkscape-font-specification:'Ubuntu Condensed,';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
+       x="1762.5657"
+       y="107.29813"
+       id="text3442"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3444"
+         x="1762.5657"
+         y="107.29813">Реакция</tspan></text>
+    <path
+       style="fill:url(#linearGradient3472);fill-opacity:1;stroke:#000000;stroke-width:1.96602643;stroke-opacity:1"
+       d="m 1655.3246,175.70234 249.3038,0 39.8886,193.8027 -39.8886,193.8027 -249.3038,0 39.8886,-193.8027 z"
+       id="path3446"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccccc" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:28px;line-height:125%;font-family:'Ubuntu Condensed';-inkscape-font-specification:'Ubuntu Condensed,';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
+       x="1737.3749"
+       y="356.09387"
+       id="text3448"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="1737.3749"
+         y="356.09387"
+         id="tspan3450">Реакция</tspan><tspan
+         sodipodi:role="line"
+         x="1737.3749"
+         y="391.09387"
+         id="tspan3468">на инцидент</tspan></text>
+    <rect
+       style="fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:6.6;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect4249"
+       width="832.85712"
+       height="534.28571"
+       x="839.99139"
+       y="38.576488"
+       rx="78.099998"
+       ry="78.099998" />
+  </g>
+</svg>
