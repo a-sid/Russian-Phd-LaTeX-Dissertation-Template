@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="49cm" height="18cm" viewBox="299 114 970 341" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g>
+    <rect style="fill: #ffffff" x="657.01" y="115.658" width="254" height="52"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="657.01" y="115.658" width="254" height="52"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="784.01" y="145.558">
+      <tspan x="784.01" y="145.558">Сложность программных систем</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="300" y="220" width="168" height="54"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="300" y="220" width="168" height="54"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="384" y="250.9">
+      <tspan x="384" y="250.9">Динамическая</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #bfbfbf" x="500" y="220" width="168" height="54"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="500" y="220" width="168" height="54"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="584" y="250.9">
+      <tspan x="584" y="250.9">Структурная</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="700" y="220" width="168" height="54"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="700" y="220" width="168" height="54"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="784" y="250.9">
+      <tspan x="784" y="250.9">Информационная</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="900" y="220" width="168" height="54"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="900" y="220" width="168" height="54"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="984" y="250.9">
+      <tspan x="984" y="250.9">Вычислительная</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="1100" y="220" width="168" height="54"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1100" y="220" width="168" height="54"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="1184" y="250.9">
+      <tspan x="1184" y="250.9">Алгоритмическая</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="300" y="300" width="168" height="54"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="300" y="300" width="168" height="54"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="384" y="322.9">
+      <tspan x="384" y="322.9">Сложная динамика</tspan>
+      <tspan x="384" y="338.9">системы</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #bfbfbf" x="494.552" y="300" width="179.85" height="54"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="494.552" y="300" width="179.85" height="54"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="584.477" y="322.9">
+      <tspan x="584.477" y="322.9">Трудноотслеживаемые</tspan>
+      <tspan x="584.477" y="338.9">связи</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="700" y="300" width="168" height="54"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="700" y="300" width="168" height="54"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="784" y="322.9">
+      <tspan x="784" y="322.9">Сложное описание</tspan>
+      <tspan x="784" y="338.9">системы</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="899.455" y="300" width="170.35" height="54"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="899.455" y="300" width="170.35" height="54"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="984.63" y="322.9">
+      <tspan x="984.63" y="322.9">Сложность прогнозов</tspan>
+      <tspan x="984.63" y="338.9">и расчётов состояния</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="1100" y="300" width="168" height="54"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1100" y="300" width="168" height="54"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="1184" y="322.9">
+      <tspan x="1184" y="322.9">Сложное описание</tspan>
+      <tspan x="1184" y="338.9">функций</tspan>
+    </text>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="384" y1="274.988" x2="384" y2="289.276"/>
+    <polygon style="fill: #000000" points="384,296.776 379,286.776 384,289.276 389,286.776 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="384,296.776 379,286.776 384,289.276 389,286.776 "/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="584.167" y1="274.988" x2="584.252" y2="289.276"/>
+    <polygon style="fill: #000000" points="584.297,296.776 579.237,286.806 584.252,289.276 589.237,286.746 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="584.297,296.776 579.237,286.806 584.252,289.276 589.237,286.746 "/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="784" y1="274.988" x2="784" y2="289.276"/>
+    <polygon style="fill: #000000" points="784,296.776 779,286.776 784,289.276 789,286.776 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="784,296.776 779,286.776 784,289.276 789,286.776 "/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="984.22" y1="274.988" x2="984.333" y2="289.276"/>
+    <polygon style="fill: #000000" points="984.392,296.776 979.313,286.815 984.333,289.276 989.313,286.737 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="984.392,296.776 979.313,286.815 984.333,289.276 989.313,286.737 "/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1184" y1="274.988" x2="1184" y2="289.276"/>
+    <polygon style="fill: #000000" points="1184,296.776 1179,286.776 1184,289.276 1189,286.776 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1184,296.776 1179,286.776 1184,289.276 1189,286.776 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="784.01,168.665 784.01,193.829 384,193.829 384,209.257 "/>
+    <polygon style="fill: #000000" points="384,216.757 379,206.757 384,209.257 389,206.757 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="384,216.757 379,206.757 384,209.257 389,206.757 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="784.01,168.665 784.01,193.829 584,193.829 584,209.257 "/>
+    <polygon style="fill: #000000" points="584,216.757 579,206.757 584,209.257 589,206.757 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="584,216.757 579,206.757 584,209.257 589,206.757 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="784.01,168.665 784.01,193.829 784,193.829 784,209.257 "/>
+    <polygon style="fill: #000000" points="784,216.757 779,206.757 784,209.257 789,206.757 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="784,216.757 779,206.757 784,209.257 789,206.757 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="784.01,168.665 784.01,193.829 984,193.829 984,209.257 "/>
+    <polygon style="fill: #000000" points="984,216.757 979,206.757 984,209.257 989,206.757 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="984,216.757 979,206.757 984,209.257 989,206.757 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="784.01,168.665 784.01,193.829 1184,193.829 1184,209.257 "/>
+    <polygon style="fill: #000000" points="1184,216.757 1179,206.757 1184,209.257 1189,206.757 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1184,216.757 1179,206.757 1184,209.257 1189,206.757 "/>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="460" y="400" width="168" height="54"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="460" y="400" width="168" height="54"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="544" y="430.9">
+      <tspan x="544" y="430.9">Большие системы</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="700" y="400" width="172.45" height="54"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="700" y="400" width="172.45" height="54"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="786.225" y="422.9">
+      <tspan x="786.225" y="422.9">Большая размерность</tspan>
+      <tspan x="786.225" y="438.9">множества состояний</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="960" y="400" width="213.3" height="54"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="960" y="400" width="213.3" height="54"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="1066.65" y="430.9">
+      <tspan x="1066.65" y="430.9">Моделирование затруднено</tspan>
+    </text>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="628.995" y1="427" x2="689.291" y2="427"/>
+    <polygon style="fill: #000000" points="696.791,427 686.791,432 689.291,427 686.791,422 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="696.791,427 686.791,432 689.291,427 686.791,422 "/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="873.456" y1="427" x2="949.273" y2="427"/>
+    <polygon style="fill: #000000" points="956.773,427 946.773,432 949.273,427 946.773,422 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="956.773,427 946.773,432 949.273,427 946.773,422 "/>
+  </g>
+</svg>

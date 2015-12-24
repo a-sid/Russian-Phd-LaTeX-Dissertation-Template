@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="30cm" height="13cm" viewBox="280 119 600 241" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g>
+    <rect style="fill: #ffffff" x="490.747" y="120" width="192.25" height="56"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="490.747" y="120" width="192.25" height="56"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="586.872" y="143.9">
+      <tspan x="586.872" y="143.9">Характеристики анализа</tspan>
+      <tspan x="586.872" y="159.9">кодов программ</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #bfbfbf" x="740" y="220" width="132.25" height="56"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="740" y="220" width="132.25" height="56"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="806.125" y="251.9">
+      <tspan x="806.125" y="251.9">Точность</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #bfbfbf" x="520.747" y="220" width="132.25" height="56"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="520.747" y="220" width="132.25" height="56"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="586.872" y="251.9">
+      <tspan x="586.872" y="251.9">Полнота</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="300" y="220" width="132.25" height="56"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="300" y="220" width="132.25" height="56"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="366.125" y="251.9">
+      <tspan x="366.125" y="251.9">Скорость</tspan>
+    </text>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="522.954" y1="176.955" x2="438.911" y2="215.027"/>
+    <polygon style="fill: #000000" points="432.079,218.122 439.125,209.441 438.911,215.027 443.251,218.55 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="432.079,218.122 439.125,209.441 438.911,215.027 443.251,218.55 "/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="650.357" y1="176.955" x2="733.782" y2="215.005"/>
+    <polygon style="fill: #000000" points="740.606,218.117 729.432,218.516 733.782,215.005 733.582,209.418 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="740.606,218.117 729.432,218.516 733.782,215.005 733.582,209.418 "/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 4; stroke: #000000" x1="442.992" y1="248" x2="510.005" y2="248"/>
+    <polygon style="fill: #000000" points="435.492,248 445.492,243 442.992,248 445.492,253 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="435.492,248 445.492,243 442.992,248 445.492,253 "/>
+    <polygon style="fill: #000000" points="517.505,248 507.505,253 510.005,248 507.505,243 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="517.505,248 507.505,253 510.005,248 507.505,243 "/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 4; stroke: #000000" x1="663.739" y1="248" x2="729.257" y2="248"/>
+    <polygon style="fill: #000000" points="656.239,248 666.239,243 663.739,248 666.239,253 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="656.239,248 666.239,243 663.739,248 666.239,253 "/>
+    <polygon style="fill: #000000" points="736.757,248 726.757,253 729.257,248 726.757,243 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="736.757,248 726.757,253 729.257,248 726.757,243 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 4; stroke: #000000" points="366.125,286.739 366.125,300 806.125,300 806.125,286.739 "/>
+    <polygon style="fill: #000000" points="366.125,279.239 371.125,289.239 366.125,286.739 361.125,289.239 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="366.125,279.239 371.125,289.239 366.125,286.739 361.125,289.239 "/>
+    <polygon style="fill: #000000" points="806.125,279.239 811.125,289.239 806.125,286.739 801.125,289.239 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="806.125,279.239 811.125,289.239 806.125,286.739 801.125,289.239 "/>
+  </g>
+  <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="280" y="340">
+    <tspan x="280" y="340">Количество обрабатываемых</tspan>
+    <tspan x="280" y="356">операторов в единицу времени</tspan>
+  </text>
+  <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="520" y="340">
+    <tspan x="520" y="340">Найденные дефекты/</tspan>
+    <tspan x="520" y="356">все возможные дефекты</tspan>
+  </text>
+  <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="740" y="340">
+    <tspan x="740" y="340">Корректные отчёты/</tspan>
+    <tspan x="740" y="356">все отчёты</tspan>
+  </text>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="586.872" y1="176.955" x2="586.872" y2="209.309"/>
+    <polygon style="fill: #000000" points="586.872,216.809 581.872,206.809 586.872,209.309 591.872,206.809 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="586.872,216.809 581.872,206.809 586.872,209.309 591.872,206.809 "/>
+  </g>
+</svg>

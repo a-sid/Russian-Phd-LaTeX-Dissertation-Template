@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="36cm" height="12cm" viewBox="378 138 716 229" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g>
+    <rect style="fill: #bfbfbf" x="640" y="140" width="193" height="85"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="640" y="140" width="193" height="85"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="736.5" y="186.4">
+      <tspan x="736.5" y="186.4">Проблемы анализа</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="379.85" y="140" width="193.15" height="85"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="379.85" y="140" width="193.15" height="85"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="476.425" y="178.4">
+      <tspan x="476.425" y="178.4">Использование</tspan>
+      <tspan x="476.425" y="194.4">на различных этапах ЖЦ</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="900" y="140" width="193" height="85"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="900" y="140" width="193" height="85"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="996.5" y="186.4">
+      <tspan x="996.5" y="186.4">Универсальность</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="380" y="280" width="193" height="85"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="380" y="280" width="193" height="85"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="476.5" y="318.4">
+      <tspan x="476.5" y="318.4">Рост сложности</tspan>
+      <tspan x="476.5" y="334.4">программ</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="640" y="280" width="193" height="86"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="640" y="280" width="193" height="86"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="736.5" y="302.9">
+      <tspan x="736.5" y="302.9">Противоречивые</tspan>
+      <tspan x="736.5" y="318.9">требования</tspan>
+      <tspan x="736.5" y="334.9">к характеристикам</tspan>
+      <tspan x="736.5" y="350.9">анализа</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="900" y="280" width="193" height="85"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="900" y="280" width="193" height="85"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="996.5" y="310.4">
+      <tspan x="996.5" y="310.4">Рост объёмов кода</tspan>
+      <tspan x="996.5" y="326.4">анализируемых</tspan>
+      <tspan x="996.5" y="342.4">программ</tspan>
+    </text>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="638.996" y1="182.5" x2="583.721" y2="182.5"/>
+    <polygon style="fill: #000000" points="576.221,182.5 586.221,177.5 583.721,182.5 586.221,187.5 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="576.221,182.5 586.221,177.5 583.721,182.5 586.221,187.5 "/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="655.726" y1="225.994" x2="565.846" y2="274.39"/>
+    <polygon style="fill: #000000" points="559.243,277.946 565.677,268.803 565.846,274.39 570.418,277.608 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="559.243,277.946 565.677,268.803 565.846,274.39 570.418,277.608 "/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="736.5" y1="226.003" x2="736.5" y2="269.272"/>
+    <polygon style="fill: #000000" points="736.5,276.772 731.5,266.772 736.5,269.272 741.5,266.772 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="736.5,276.772 731.5,266.772 736.5,269.272 741.5,266.772 "/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="817.274" y1="225.994" x2="907.154" y2="274.39"/>
+    <polygon style="fill: #000000" points="913.757,277.946 902.582,277.608 907.154,274.39 907.323,268.803 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="913.757,277.946 902.582,277.608 907.154,274.39 907.323,268.803 "/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="834.008" y1="182.5" x2="889.256" y2="182.5"/>
+    <polygon style="fill: #000000" points="896.756,182.5 886.756,187.5 889.256,182.5 886.756,177.5 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="896.756,182.5 886.756,187.5 889.256,182.5 886.756,177.5 "/>
+  </g>
+</svg>
