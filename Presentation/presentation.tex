@@ -32,8 +32,8 @@
 \usetheme{Pittsburgh}
 \usecolortheme{whale}
 
-\usepackage[defaultsans]{opensans}
-\renewcommand*\familydefault{\sfdefault} %% Only if the base font of the document is to be typewriter style
+% \usepackage[defaultsans]{opensans}
+% \renewcommand*\familydefault{\sfdefault} %% Only if the base font of the document is to be typewriter style
 \usepackage[T2A]{fontenc}
 
 \setbeamercolor{footline}{fg=blue}
@@ -145,7 +145,23 @@
 
 %--------------------------------------------------------------------------------------------------------
 
-% TODO: Пояснить характеристики!
+\begin{frame}
+\frametitle{Статический анализ в ЖЦ ПО}
+\begin{figure}[h]
+%   \begin{minipage}[h]{\linewidth}
+%     \textbf{<<Водопадный>> ЖЦ}
+%     \center{\includegraphics[width=1\linewidth]{../Dissertation/images/lifecycle-waterfall.pdf}}
+%   \end{minipage}
+  \vfill
+  \begin{minipage}[h]{\linewidth}
+    \textbf{ЖЦ безопасного ПО}
+    \center{\includegraphics[width=1\linewidth]{../Dissertation/images/ms-sdl-sel.pdf}}
+  \end{minipage}
+\end{figure}
+\end{frame}
+
+%--------------------------------------------------------------------------------------------------------
+
 \begin{frame}
 \frametitle{Характеристики статического анализа}
 \begin{figure}[h]
@@ -176,24 +192,6 @@
 % \path[<->,draw] (speed) -- +(0,-1) -| node[near start] {} (prec);
 % \path[<->] (compl) edge node {} (speed);
 % \end{tikzpicture}
-\end{figure}
-\end{frame}
-
-%--------------------------------------------------------------------------------------------------------
-
-%TODO: выделить этапы
-\begin{frame}
-\frametitle{Статический анализ в ЖЦ ПО}
-\begin{figure}[h]
-%   \begin{minipage}[h]{\linewidth}
-%     \textbf{<<Водопадный>> ЖЦ}
-%     \center{\includegraphics[width=1\linewidth]{../Dissertation/images/lifecycle-waterfall.pdf}}
-%   \end{minipage}
-  \vfill
-  \begin{minipage}[h]{\linewidth}
-    \textbf{ЖЦ безопасного ПО}
-    \center{\includegraphics[width=1\linewidth]{../Dissertation/images/ms-sdl-sel.pdf}}
-  \end{minipage}
 \end{figure}
 \end{frame}
 
@@ -274,7 +272,18 @@ int test(int a, int b) {
 %TODO: Табличка положительные/отрицательные, описание метода.
 \begin{frame}
 \frametitle{Межпроцедурный анализ с использованием\\метода встраивания}
+Межпроцедурный анализ с использованием метода встраивания моделирует вызов функции выполнением всех её операторов относительно состояния программы на момент вызова в соответствии с потоком управления внутри вызываемой функции.
+\vspace{10pt}
 \begin{figure}[h]
+  \begin{minipage}[h]{0.49\linewidth}
+  \center{Преимущества}
+  \end{minipage}
+  \hfill
+  \begin{minipage}[h]{0.49\linewidth}
+\center{Недостатки}
+  \end{minipage}
+  \vspace{5pt}
+
   \begin{minipage}[h]{0.49\linewidth}
   \begin{itemize}
     \item[+] Интуитивно понятный метод
@@ -427,11 +436,31 @@ $p_{i}$~--- количество символьных значений в $i$-й
 %--------------------------------------------------------------------------------------------------------
 
 \begin{frame}
-Графы выполнения вызывающей и вызываемой функции
+\frametitle{Актуализация символьных значений}
+
+\begin{enumerate}
+ \item Для всех регионов памяти, содержащихся в символьном значении:
+ \begin{enumerate}
+  \item Определить регион, соответствующий данному региону в вызывающей функции
+  \item Заменить в символьном значении исходный регион актуализированным
+ \end{enumerate}
+ \item Для всех символов, содержащихся в символьном значении, полученном на шаге 1:
+  \begin{enumerate}
+  \item Проверить, не вычисляется ли символ в константу
+  \item Если символ вычисляется в константу, заменить данный символ вычисленной константой.
+ \end{enumerate}
+
+\end{enumerate}
+\end{frame}
+
+%--------------------------------------------------------------------------------------------------------
+
+\begin{frame}
 \frametitle{Построение отчёта однократной вложенности}
-Отчёт строится с помощью последовательного движения по графам выполнения вызываемой и вызывающей функции
+Отчёт строится с помощью последовательного движения по графам выполнения вызываемой и вызывающей функции.
+
 \begin{figure}[H]
-  \center{\includegraphics[width=0.8\linewidth]{../Dissertation/images/call-trace.pdf}}
+  \center{\includegraphics[width=0.8\linewidth]{../Dissertation/images/call-trace-2.pdf}}
 \end{figure}
 \end{frame}
 %--------------------------------------------------------------------------------------------------------
@@ -440,7 +469,7 @@ $p_{i}$~--- количество символьных значений в $i$-й
 \frametitle{Построение отчёта произвольной вложенности}
 При хранении всего стека применения резюме можно строить отчёты произвольной вложенности аналогичным способом.
 \begin{figure}[h]
-  \center{\includegraphics[width=1\linewidth]{../Dissertation/images/call-trace-multiple.pdf}}
+  \center{\includegraphics[width=1\linewidth]{../Dissertation/images/call-trace-multiple-2.pdf}}
 \end{figure}
 \end{frame}
 
@@ -448,26 +477,32 @@ $p_{i}$~--- количество символьных значений в $i$-й
 %--------------------------------------------------------------------------------------------------------
 
 \begin{frame}
-%TODO: Написать о том, что сделано на основе Clang Static Analyzer
-%TODO:s/механизм/Clang Static Analyzer
 \frametitle{Межмодульный анализ}
 Функциональная модель межмодульного анализа, используемая в разработанном ПО, представлена в нотации IDEF0.
 \begin{figure}[h]
-  \center{\includegraphics[width=\linewidth]{../Dissertation/images/xtu-idef0-3.pdf}}
+  \center{\includegraphics[width=\linewidth]{../Dissertation/images/xtu-idef0-4.pdf}}
 \end{figure}
 \end{frame}
 
 %--------------------------------------------------------------------------------------------------------
-%TODO: Таблица +/-
 \begin{frame}
 \frametitle{Слияние АСД}
+\begin{figure}[h]
+  \begin{minipage}[h]{0.49\linewidth}
 \begin{itemize}
  \item[+] Прозрачный межмодульный анализ
  \item[+] Возможность выполнения комбинированных проверок
  \item[+] Отсутствие потерь информации о программе
+\end{itemize}
+  \end{minipage}
+  \hfill
+  \begin{minipage}[h]{0.49\linewidth}
+\begin{itemize}
  \item[--] Проблема конфликтующих определений
  \item[--] Проблема слияния АСД кода, разработанного с использованием различных стандартов языка
 \end{itemize}
+  \end{minipage}
+\end{figure}
 \end{frame}
 
 %--------------------------------------------------------------------------------------------------------
@@ -738,6 +773,15 @@ $p_{i}$~--- количество символьных значений в $i$-й
 %   \center{\includegraphics[width=0.8\linewidth]{../Dissertation/images/xtu-unique.pdf}}
 % \end{figure}
 % \end{frame}
+%--------------------------------------------------------------------------------------------------------
+
+\begin{frame}
+\frametitle{Алгоритм применения резюме}
+\begin{figure}[h]
+  \center{\includegraphics[width=1\linewidth]{images/applyscheme.png}}
+\end{figure}
+\end{frame}
+%--------------------------------------------------------------------------------------------------------
 
 \begin{frame}[allowframebreaks]
 \frametitle{Научные результаты, представляемые на защиту}

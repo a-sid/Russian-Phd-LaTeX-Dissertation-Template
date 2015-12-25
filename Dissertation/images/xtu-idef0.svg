@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="79cm" height="30cm" viewBox="356 249 1568 583" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g>
+    <rect style="fill: #ffffff" x="527.425" y="339" width="173.15" height="87"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="527.425" y="339" width="173.15" height="87"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="614" y="386.4">
+      <tspan x="614" y="386.4">strace_interceptor.py</tspan>
+    </text>
+    <text font-size="9.59985" style="fill: #000000;text-anchor:end;font-family:sans-serif;font-style:normal;font-weight:700" x="696.975" y="422.4">A1</text>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="357.422" y1="381.295" x2="516.848" y2="381.349"/>
+    <polygon style="fill: #000000" points="524.348,381.351 514.346,386.348 516.848,381.349 514.35,376.348 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="524.348,381.351 514.346,386.348 516.848,381.349 514.35,376.348 "/>
+  </g>
+  <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="372.354" y="324.598">
+    <tspan x="372.354" y="324.598">Текстовый файл</tspan>
+    <tspan x="372.354" y="340.598">с выводом strace</tspan>
+    <tspan x="372.354" y="356.598">команды построения</tspan>
+    <tspan x="372.354" y="372.598">проекта</tspan>
+  </text>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="568.421" y1="300.043" x2="568.469" y2="328.253"/>
+    <polygon style="fill: #000000" points="568.482,335.753 563.465,325.762 568.469,328.253 573.465,325.744 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="568.482,335.753 563.465,325.762 568.469,328.253 573.465,325.744 "/>
+  </g>
+  <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="534.303" y="261.429">
+    <tspan x="534.303" y="261.429">Аргументы</tspan>
+    <tspan x="534.303" y="277.429">команды</tspan>
+    <tspan x="534.303" y="293.429">перехвата</tspan>
+  </text>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="665.925" y1="301.558" x2="665.94" y2="329.264"/>
+    <polygon style="fill: #000000" points="665.944,336.764 660.938,326.767 665.94,329.264 670.938,326.761 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="665.944,336.764 660.938,326.767 665.94,329.264 670.938,326.761 "/>
+  </g>
+  <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="627.891" y="270.771">
+    <tspan x="627.891" y="270.771">Переменные</tspan>
+    <tspan x="627.891" y="286.771">окружения</tspan>
+  </text>
+  <g>
+    <rect style="fill: #ffffff" x="782.524" y="406.542" width="173.15" height="87"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="782.524" y="406.542" width="173.15" height="87"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="869.099" y="453.942">
+      <tspan x="869.099" y="453.942">xtu-intercept.py</tspan>
+    </text>
+    <text font-size="9.59985" style="fill: #000000;text-anchor:end;font-family:sans-serif;font-style:normal;font-weight:700" x="952.074" y="489.942">A2</text>
+  </g>
+  <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="720.897" y="338.842">
+    <tspan x="720.897" y="338.842">Команды запуска</tspan>
+    <tspan x="720.897" y="354.842">компилятора</tspan>
+  </text>
+  <g>
+    <rect style="fill: #ffffff" x="1062.39" y="511.866" width="171.539" height="87.4514"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1062.39" y="511.866" width="171.539" height="87.4514"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="1148.16" y="559.492">
+      <tspan x="1148.16" y="559.492">xtu-analyze.py</tspan>
+    </text>
+    <text font-size="9.59985" style="fill: #000000;text-anchor:end;font-family:sans-serif;font-style:normal;font-weight:700" x="1230.33" y="595.717">A3</text>
+  </g>
+  <g>
+    <rect style="fill: #bfbfbf" x="1342.23" y="566.122" width="171.539" height="87.4514"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1342.23" y="566.122" width="171.539" height="87.4514"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="1428" y="613.748">
+      <tspan x="1428" y="613.748">ccc-analyzer</tspan>
+    </text>
+    <text font-size="9.59985" style="fill: #000000;text-anchor:end;font-family:sans-serif;font-style:normal;font-weight:700" x="1510.17" y="649.973">A4</text>
+  </g>
+  <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="977.165" y="415.281">
+    <tspan x="977.165" y="415.281">Образы AST транслируемых модулей</tspan>
+  </text>
+  <g>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 955.742,475.949 A 0.0679761,0.0679761 0 0 0 955.674,476.017"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="955.674" y1="476.142" x2="955.674" y2="476.017"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 980.372,484.657 A 8.70808,8.70808 0 0 0 971.664,475.949"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="955.742" y1="475.949" x2="971.664" y2="475.949"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 980.372,562.454 A 15,15 0 0 0 995.372,577.454"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="980.372" y1="484.657" x2="980.372" y2="562.454"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="995.372" y1="577.454" x2="1045.39" y2="577.454"/>
+    <polygon style="fill: #000000" points="1045.39,585.454 1061.39,577.454 1045.39,569.454 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1045.39,585.454 1061.39,577.454 1045.39,569.454 "/>
+  </g>
+  <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="922.228" y="598.621">
+    <tspan x="922.228" y="598.621">Внутримодульные</tspan>
+    <tspan x="922.228" y="614.621">графы вызовов</tspan>
+  </text>
+  <g>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 700.575,361.04 A 0.158569,0.158569 0 0 0 700.734,361.199"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="700.575" y1="360.75" x2="700.575" y2="361.04"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 746.26,376.199 A 15,15 0 0 0 731.26,361.199"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="700.734" y1="361.199" x2="731.26" y2="361.199"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 746.26,421.481 A 6.81089,6.81089 0 0 0 753.071,428.292"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="746.26" y1="376.199" x2="746.26" y2="421.481"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="753.071" y1="428.292" x2="765.524" y2="428.292"/>
+    <polygon style="fill: #000000" points="765.524,436.292 781.524,428.292 765.524,420.292 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="765.524,436.292 781.524,428.292 765.524,420.292 "/>
+  </g>
+  <g>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 700.575,404.686 A 0.238366,0.238366 0 0 0 700.813,404.924"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="700.575" y1="404.25" x2="700.575" y2="404.686"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 728.104,414.573 A 9.64883,9.64883 0 0 0 718.456,404.924"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="700.813" y1="404.924" x2="718.456" y2="404.924"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 728.104,458.562 A 13.2298,13.2298 0 0 0 741.334,471.792"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="728.104" y1="414.573" x2="728.104" y2="458.562"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="741.334" y1="471.792" x2="765.524" y2="471.792"/>
+    <polygon style="fill: #000000" points="765.524,479.792 781.524,471.792 765.524,463.792 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="765.524,479.792 781.524,471.792 765.524,463.792 "/>
+  </g>
+  <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="575.177" y="467.544">
+    <tspan x="575.177" y="467.544">Параметры запуска</tspan>
+    <tspan x="575.177" y="483.544">компилятора</tspan>
+    <tspan x="575.177" y="499.544">(текущая директория и т.д.)</tspan>
+  </text>
+  <g>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 955.674,459.232 A 0.267896,0.267896 0 0 0 955.942,459.499"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="955.674" y1="458.742" x2="955.674" y2="459.232"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 998.03,474.38 A 14.8806,14.8806 0 0 0 983.15,459.499"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="955.942" y1="459.499" x2="983.15" y2="459.499"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 998.03,540.592 A 15,15 0 0 0 1013.03,555.592"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="998.03" y1="474.38" x2="998.03" y2="540.592"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1013.03" y1="555.592" x2="1045.39" y2="555.592"/>
+    <polygon style="fill: #000000" points="1045.39,563.592 1061.39,555.592 1045.39,547.592 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1045.39,563.592 1061.39,555.592 1045.39,547.592 "/>
+  </g>
+  <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="1012.33" y="472.113">
+    <tspan x="1012.33" y="472.113"></tspan>
+  </text>
+  <g>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 955.795,441 A 0.120778,0.120778 0 0 0 955.674,441.121"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="955.674" y1="441.342" x2="955.674" y2="441.121"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 1011.48,456 A 15,15 0 0 0 996.484,441"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="955.795" y1="441" x2="996.484" y2="441"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 1011.48,521.742 A 11.9864,11.9864 0 0 0 1023.47,533.729"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1011.48" y1="456" x2="1011.48" y2="521.742"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1023.47" y1="533.729" x2="1045.39" y2="533.729"/>
+    <polygon style="fill: #000000" points="1045.39,541.729 1061.39,533.729 1045.39,525.729 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1045.39,541.729 1061.39,533.729 1045.39,525.729 "/>
+  </g>
+  <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="1020.73" y="451.235">
+    <tspan x="1020.73" y="451.235">Список экспортируемых</tspan>
+    <tspan x="1020.73" y="467.235">функций</tspan>
+  </text>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" points="998.03,490.156 1031.87,485.729 1021.71,495.558 1055.55,491.131 "/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="1136.27" y="489.45">
+      <tspan x="1136.27" y="489.45">Список недоступных</tspan>
+      <tspan x="1136.27" y="505.45"> для анализа функций</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #bfbfbf" x="1621.59" y="743.652" width="175.629" height="87.4514"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1621.59" y="743.652" width="175.629" height="87.4514"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="1709.4" y="783.278">
+      <tspan x="1709.4" y="783.278">clang</tspan>
+      <tspan x="1709.4" y="799.278">(static analyzer)</tspan>
+    </text>
+    <text font-size="9.59985" style="fill: #000000;text-anchor:end;font-family:sans-serif;font-style:normal;font-weight:700" x="1793.62" y="827.504">A5</text>
+  </g>
+  <g>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 1233.93,534.08 A 0.191842,0.191842 0 0 0 1234.12,534.271"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1233.93" y1="533.729" x2="1233.93" y2="534.08"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 1312.69,549.271 A 15,15 0 0 0 1297.69,534.271"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1234.12" y1="534.271" x2="1297.69" y2="534.271"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 1312.69,605.414 A 4.43337,4.43337 0 0 0 1317.13,609.848"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1312.69" y1="549.271" x2="1312.69" y2="605.414"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1317.13" y1="609.848" x2="1325.23" y2="609.848"/>
+    <polygon style="fill: #000000" points="1325.23,617.848 1341.23,609.848 1325.23,601.848 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1325.23,617.848 1341.23,609.848 1325.23,601.848 "/>
+  </g>
+  <g>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 1233.93,577.826 A 0.203405,0.203405 0 0 0 1234.13,578.03"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1233.93" y1="577.454" x2="1233.93" y2="577.826"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 1290.1,593.03 A 15,15 0 0 0 1275.1,578.03"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1234.13" y1="578.03" x2="1275.1" y2="578.03"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 1290.1,794.241 A 15,15 0 0 0 1305.1,809.241"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1290.1" y1="593.03" x2="1290.1" y2="794.241"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1305.1" y1="809.241" x2="1604.59" y2="809.241"/>
+    <polygon style="fill: #000000" points="1604.59,817.241 1620.59,809.241 1604.59,801.241 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1604.59,817.241 1620.59,809.241 1604.59,801.241 "/>
+  </g>
+  <g>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 955.674,425.174 A 0.673917,0.673917 0 0 0 956.348,425.848"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="955.674" y1="423.942" x2="955.674" y2="425.174"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 1568.37,440.848 A 15,15 0 0 0 1553.37,425.848"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="956.348" y1="425.848" x2="1553.37" y2="425.848"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 1568.37,752.707 A 12.8076,12.8076 0 0 0 1581.17,765.515"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1568.37" y1="440.848" x2="1568.37" y2="752.707"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1581.17" y1="765.515" x2="1604.59" y2="765.515"/>
+    <polygon style="fill: #000000" points="1604.59,773.515 1620.59,765.515 1604.59,757.515 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1604.59,773.515 1620.59,765.515 1604.59,757.515 "/>
+  </g>
+  <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="1244.91" y="512.866">
+    <tspan x="1244.91" y="512.866">Предобработанная</tspan>
+    <tspan x="1244.91" y="528.866">команда построения</tspan>
+  </text>
+  <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="1330.53" y="767.35">
+    <tspan x="1330.53" y="767.35">Карта соответствия</tspan>
+    <tspan x="1330.53" y="783.35">между функциями</tspan>
+    <tspan x="1330.53" y="799.35">и файлами их определения</tspan>
+  </text>
+  <g>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 1514.09,608.948 A 0.317966,0.317966 0 0 0 1513.77,609.266"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1513.77" y1="609.848" x2="1513.77" y2="609.266"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 1548.15,620.991 A 12.0422,12.0422 0 0 0 1536.11,608.948"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1514.09" y1="608.948" x2="1536.11" y2="608.948"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 1548.15,772.378 A 15,15 0 0 0 1563.15,787.378"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1548.15" y1="620.991" x2="1548.15" y2="772.378"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1563.15" y1="787.378" x2="1604.59" y2="787.378"/>
+    <polygon style="fill: #000000" points="1604.59,795.378 1620.59,787.378 1604.59,779.378 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1604.59,795.378 1620.59,787.378 1604.59,779.378 "/>
+  </g>
+  <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="1401.88" y="682.919">
+    <tspan x="1401.88" y="682.919">Аргументы команды</tspan>
+    <tspan x="1401.88" y="698.919">анализа</tspan>
+  </text>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1797.22" y1="787.378" x2="1911.81" y2="787.551"/>
+    <polygon style="fill: #000000" points="1919.31,787.563 1909.31,792.548 1911.81,787.551 1909.32,782.548 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1919.31,787.563 1909.31,792.548 1911.81,787.551 1909.32,782.548 "/>
+  </g>
+  <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="1801.44" y="775.674">
+    <tspan x="1801.44" y="775.674">Отчёт о дефектах</tspan>
+  </text>
+</svg>
