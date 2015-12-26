@@ -1,5 +1,5 @@
 \pdfoptionpdfminorversion=5
-\documentclass[hyperref={pdfpagelabels=false},10pt]{beamer}
+\documentclass[hyperref={pdfpagelabels=false},10pt,gray]{beamer}
 \usepackage[utf8]{inputenc}
 \usepackage[english,russian]{babel}
 \usepackage{amssymb,amsfonts,amsmath,mathtext}
@@ -29,50 +29,55 @@
 
 \graphicspath{{images/}}
 
-\usetheme{Pittsburgh}
-\usecolortheme{whale}
+%\usetheme{Pittsburgh}
+%\usecolortheme{whale}
 
 % \usepackage[defaultsans]{opensans}
 % \renewcommand*\familydefault{\sfdefault} %% Only if the base font of the document is to be typewriter style
 \usepackage[T2A]{fontenc}
-
-\setbeamercolor{footline}{fg=blue}
-\setbeamertemplate{footline}{
-  \leavevmode%
-  \hbox{%
-  \begin{beamercolorbox}[wd=.333333\paperwidth,ht=2.25ex,dp=1ex,center]{}%
-    А.В.~Сидорин, МГТУ им. Баумана
-  \end{beamercolorbox}%
-  \begin{beamercolorbox}[wd=.333333\paperwidth,ht=2.25ex,dp=1ex,center]{}%
-    Москва, 2015
-  \end{beamercolorbox}%
-  \begin{beamercolorbox}[wd=.333333\paperwidth,ht=2.25ex,dp=1ex,right]{}%
-  Стр. \insertframenumber{} из \inserttotalframenumber \hspace*{2ex}
-  \end{beamercolorbox}}%
-  \vskip0pt%
-}
+%TODO: Убрать ``выступающий''
+%TODO: Никаких тёмных заголовков
+%\setbeamercolor{footline}{fg=blue}
+% \setbeamertemplate{footline}{
+%   \leavevmode%
+%   \hbox{%
+%   \begin{beamercolorbox}[wd=.333333\paperwidth,ht=2.25ex,dp=1ex,center]{}%
+%     А.В.~Сидорин, МГТУ им. Баумана
+%   \end{beamercolorbox}%
+%   \begin{beamercolorbox}[wd=.333333\paperwidth,ht=2.25ex,dp=1ex,center]{}%
+%     Москва, 2015
+%   \end{beamercolorbox}%
+%   \begin{beamercolorbox}[wd=.333333\paperwidth,ht=2.25ex,dp=1ex,right]{}%
+%   Стр. \insertframenumber{} из \inserttotalframenumber \hspace*{2ex}
+%   \end{beamercolorbox}}%
+%   \vskip0pt%
+% }
 
 \newcommand{\itemi}{\item[\checkmark]}
-
-\title{Разработка и  исследование методов межпроцедурного и межмодульного анализа кодов программ, написанных на~языках  С и С++, применимых для~анализа крупных систем}
-\author{\small{%
-\emph{Выступающий:}~А.В.~Сидорин\\%
-\emph{Руководитель:}~доцент,~к.ф.-м.н.~Т.Н.~Романова}\\%
-\vspace{30pt}%
-Московский государственный технический университет\\имени Н.\,Э.~Баумана%
-\vspace{10pt}%
-}
-\date{\small{Москва, 2015}}
+\setbeamercolor{frametitle}{fg=black}
+\title{Метод межпроцедурного и межмодульного анализа кодов программ, написанных на~языках  С и С++}
+% \author{\small{%
+% \emph{Выступающий:}~А.В.~Сидорин\\%
+% \emph{Руководитель:}~доцент,~к.ф.-м.н.~Т.Н.~Романова}\\%
+% \vspace{30pt}%
+% Московский государственный технический университет\\имени Н.\,Э.~Баумана%
+% \vspace{10pt}%
+% }
+% \date{\small{Москва, 2015}}
 
 \begin{document}
 
-\maketitle
+%\maketitle
+
+\begin{frame}
+  \center{\Huge{Метод межпроцедурного\\и~межмодульного анализа кодов программ, написанных на~языках  С и С++}}
+\end{frame}
 
 %--------------------------------------------------------------------------------------------------------
 \begin{frame}
-\frametitle{Крупные и сложные программные системы}
+\frametitle{Cложные программные системы}
 \begin{figure}[h]
-  \center{\includegraphics[width=\linewidth]{../Dissertation/images/complexity.pdf}}
+  \center{\includegraphics[width=\linewidth]{../Dissertation/images/complexity-1.pdf}}
 
 % \begin{tikzpicture}[ampersand replacement=\&,
 %                     thick,anchor=center,
@@ -107,93 +112,40 @@
 %--------------------------------------------------------------------------------------------------------
 \renewcommand{\arraystretch}{1.2}
 
-\begin{frame}
-\frametitle{Анализируемые объёмы кодов программ}
-Характеристики тестовой базы ОС Android 4.2.1
-\begin{table} [htbp]
-  \centering
-  \parbox{15cm}{\label{table:android-char}}
-%  \begin{center}
-  \begin{tabular}{| p{0.7\linewidth} || p{0.2\linewidth} |}
-  \hline
-  \hline
-  \textbf{Характеристика}   & \textbf{Значение} \\
-  \hline
-  \hline
-  Количество строк кода   & 10 млн \\
-  \hline
-  Количество файлов исходного кода      & 31038    \\
-  \hline
-  Количество транслируемых модулей  & 20635   \\
-  \hline
-  Количество архитектур на построение & 2   \\
-  \hline
-  Количество пакетов & 389 \\
-  \hline
-  \hline
-  \end{tabular}
-%  \end{center}
-\end{table}
-\end{frame}
-%--------------------------------------------------------------------------------------------------------
-\begin{frame}
-\frametitle{C/C++ пакеты системы Android 4.2.1~---\\диаграмма связей}
-\begin{figure}[h]
-  \center{\includegraphics[height=0.65\linewidth]{../Dissertation/images/callgraph.pdf}}
-\end{figure}
-\end{frame}
-
 %--------------------------------------------------------------------------------------------------------
 
-\begin{frame}
-\frametitle{Статический анализ в ЖЦ ПО}
-\begin{figure}[h]
-%   \begin{minipage}[h]{\linewidth}
-%     \textbf{<<Водопадный>> ЖЦ}
-%     \center{\includegraphics[width=1\linewidth]{../Dissertation/images/lifecycle-waterfall.pdf}}
-%   \end{minipage}
-  \vfill
-  \begin{minipage}[h]{\linewidth}
-    \textbf{ЖЦ безопасного ПО}
-    \center{\includegraphics[width=1\linewidth]{../Dissertation/images/ms-sdl-sel.pdf}}
-  \end{minipage}
-\end{figure}
-\end{frame}
-
-%--------------------------------------------------------------------------------------------------------
-
-\begin{frame}
-\frametitle{Характеристики статического анализа}
-\begin{figure}[h]
-  \center{\includegraphics[width=\linewidth]{../Dissertation/images/characteristics.pdf}}
-% \begin{tikzpicture}[thick,anchor=base,
-%                     node distance=3cm,
-%                     text height=1.5ex,
-%                     text depth=.25ex,
-%                     auto]
-% \tikzstyle{format} = [thick,
-%                       minimum size=1cm,
-%                       draw=black,
-%                       top color=white]
-% 
-% \tikzstyle{selected} = [thick,
-%                       minimum size=1cm,
-%                       draw=black,
-%                       top color=gray]
-% \node[format]       (char) {Характеристики анализа кодов программ};
-% \node[selected,below of=char]  (compl) {Полнота};
-% \node[selected,right of=compl] (prec)  {Точность};
-% \node[format,left  of=compl] (speed) {Скорость};
-% 
-% \path[->] (char) edge node {} (compl);
-% \path[->] (char) edge node {} (prec);
-% \path[->] (char) edge node {} (speed);
-% \path[<->] (prec) edge node {} (compl);
-% \path[<->,draw] (speed) -- +(0,-1) -| node[near start] {} (prec);
-% \path[<->] (compl) edge node {} (speed);
-% \end{tikzpicture}
-\end{figure}
-\end{frame}
+% \begin{frame}
+% \frametitle{Характеристики статического анализа}
+% \begin{figure}[h]
+%   \center{\includegraphics[width=\linewidth]{../Dissertation/images/characteristics.pdf}}
+% % \begin{tikzpicture}[thick,anchor=base,
+% %                     node distance=3cm,
+% %                     text height=1.5ex,
+% %                     text depth=.25ex,
+% %                     auto]
+% % \tikzstyle{format} = [thick,
+% %                       minimum size=1cm,
+% %                       draw=black,
+% %                       top color=white]
+% % 
+% % \tikzstyle{selected} = [thick,
+% %                       minimum size=1cm,
+% %                       draw=black,
+% %                       top color=gray]
+% % \node[format]       (char) {Характеристики анализа кодов программ};
+% % \node[selected,below of=char]  (compl) {Полнота};
+% % \node[selected,right of=compl] (prec)  {Точность};
+% % \node[format,left  of=compl] (speed) {Скорость};
+% % 
+% % \path[->] (char) edge node {} (compl);
+% % \path[->] (char) edge node {} (prec);
+% % \path[->] (char) edge node {} (speed);
+% % \path[<->] (prec) edge node {} (compl);
+% % \path[<->,draw] (speed) -- +(0,-1) -| node[near start] {} (prec);
+% % \path[<->] (compl) edge node {} (speed);
+% % \end{tikzpicture}
+% \end{figure}
+% \end{frame}
 
 %--------------------------------------------------------------------------------------------------------
 
@@ -203,9 +155,12 @@
 % \end{frame}
 
 \begin{frame}
-\frametitle{Актуальность проблемы анализа больших систем}
+\frametitle{Актуальность проблемы анализа программных систем}
 \begin{figure}[h]
     \center{\includegraphics[width=1\linewidth]{../Dissertation/images/problems.pdf}}
+    
+    \textbf{ЖЦ безопасного ПО}
+    \center{\includegraphics[width=1\linewidth]{../Dissertation/images/ms-sdl-sel.pdf}}
 
 % \begin{tikzpicture}[ampersand replacement=\&,thick,anchor=center,
 %                     node distance=3cm,
@@ -240,94 +195,135 @@
 \end{frame}
 
 %--------------------------------------------------------------------------------------------------------
-\begin{frame}[fragile]
+% \begin{frame}[fragile]
+% %TODO: Разделить практические и теоретические работы
+% %TODO: Дополнить список, в т.ч. отечественными работами (CEGAR)
+% \frametitle{Наиболее известные работы, относящиеся к методу символьного выполнения:}
+% \begin{enumerate}
+%  \item J. King, 1976. Symbolic Execution and Program Testing.
+%  \item P. Godefroid, 2007. Compositional Dynamic Test Generation.
+%  \item V.~Kuznetsov, J.~Kinder, S.~Bucur, G.~Candea, 2012. Efficient State Merging in Symbolic Execution.
+%  \item  Anand Saswat, 2012. Techniques to Facilitate Symbolic Execution of Real-World Programs.
+%  \item Sang Kil Cha, T. Avgerinos, A. Rebert, D. Brumley, 2012 Unleashing Mayhem on Binary Code.
+%  \item A. Ibing, 2014. Demand-driven Compositional Symbolic Execution.
+% \end{enumerate}
 
-\frametitle{Метод символьного выполнения}
-\begin{figure}[h]
-  \begin{minipage}[h]{0.4\linewidth}
-  Исходная функция
-\begin{lstlisting}[language=C++,basicstyle=\tiny]
-int test(int a, int b) {
-  FILE *f = fopen("file.txt");
-  int result;
-  fscanf(f, "%d", &result);
-  fclose(f);
-  if (a == 0 && b > 2) {
-    fclose(f);
-    return 0;
-  }
-  return result;
-}
-\end{lstlisting}
-  \end{minipage}
-  \hfill
-  \begin{minipage}[h]{0.58\linewidth}
-    Результирующий граф выполнения
-    \center{\includegraphics[height=1.1\linewidth]{../Dissertation/images/article-1-symexec-sample.pdf}}
-  \end{minipage}
-\end{figure}
+% \begin{figure}[h]
+%   \begin{minipage}[h]{0.4\linewidth}
+%   Исходная функция
+% \begin{lstlisting}[language=C++,basicstyle=\tiny]
+% int test(int a, int b) {
+%   FILE *f = fopen("file.txt");
+%   int result;
+%   fscanf(f, "%d", &result);
+%   fclose(f);
+%   if (a == 0 && b > 2) {
+%     fclose(f);
+%     return 0;
+%   }
+%   return result;
+% }
+% \end{lstlisting}
+%   \end{minipage}
+%   \hfill
+%   \begin{minipage}[h]{0.58\linewidth}
+%     Результирующий граф выполнения
+%     \center{\includegraphics[height=1.1\linewidth]{../Dissertation/images/article-1-symexec-sample.pdf}}
+%   \end{minipage}
+% \end{figure}
 \end{frame}
+%--------------------------------------------------------------------------------------------------------
+
+\begin{frame}
+%\frametitle{Цель работы}
+\textbf{\Large{Цель работы}}. Разработать методы межпроцедурного и межмодульного анализа сложных программных систем, написанных на языках C и C++, для автоматического поиска дефектов различных видов и реализация программного обеспечения для статического анализа кодов программ на основе этих методов.
+
+%\end{frame}
+\vspace{5pt}
+%\begin{frame}[allowframebreaks]
+\textbf{\Large{Решаемые задачи}}
+
+\begin{enumerate}
+  \item Разработка модификации метода межпроцедурного анализа программ, пригодной для реализации в многоцелевом статическом анализаторе программного кода на языках C и C++ и позволяющей использовать различные виды проверок кода с целью поиска дефектов.
+  \item Разработка метода межмодульного анализа программ, разработанных с использованием языков C и C++, для повышения полноты анализа многокомпонентных систем.
+  \item Реализация программного обеспечения (многоцелевой анализатор и его утилиты) на основе предложенных методов с целью его промышленного и коммерческого применения для поиска дефектов в исходном коде программных комплексов.
+\end{enumerate}
+
+\end{frame}
+%--------------------------------------------------------------------------------------------------------
+
+%Теоретическое обоснование и исследование подходов для модификации существующего метода межпроцедурного анализа, который будет использован для построения универсального анализатора кодов программ, разработанных с использованием языков C и C++, для дальнейшего встраивания в среду автоматического тестирования, с целью повышения эффективности анализа крупных прикладных программных комплексов
 
 %--------------------------------------------------------------------------------------------------------
 %TODO: Табличка положительные/отрицательные, описание метода.
-\begin{frame}
-\frametitle{Межпроцедурный анализ с использованием\\метода встраивания}
-Межпроцедурный анализ с использованием метода встраивания моделирует вызов функции выполнением всех её операторов относительно состояния программы на момент вызова в соответствии с потоком управления внутри вызываемой функции.
-\vspace{10pt}
-\begin{figure}[h]
-  \begin{minipage}[h]{0.49\linewidth}
-  \center{Преимущества}
-  \end{minipage}
-  \hfill
-  \begin{minipage}[h]{0.49\linewidth}
-\center{Недостатки}
-  \end{minipage}
-  \vspace{5pt}
-
-  \begin{minipage}[h]{0.49\linewidth}
-  \begin{itemize}
-    \item[+] Интуитивно понятный метод
-  \end{itemize}
-  \end{minipage}
-  \hfill
-  \begin{minipage}[h]{0.49\linewidth}
-\begin{itemize}
- \item[--] Повторный анализ функций при моделировании вызовов
- \item[--] Непроизводительные вычисления
-\end{itemize}
-  \end{minipage}
-\end{figure}
-\end{frame}
+% \begin{frame}
+% \frametitle{Межпроцедурный анализ с использованием\\метода встраивания}
+% Межпроцедурный анализ с использованием метода встраивания моделирует вызов функции выполнением всех её операторов относительно состояния программы на момент вызова в соответствии с потоком управления внутри вызываемой функции.
+% \vspace{10pt}
+% \begin{figure}[h]
+%   \begin{minipage}[h]{0.49\linewidth}
+%   \center{Преимущества}
+%   \end{minipage}
+%   \hfill
+%   \begin{minipage}[h]{0.49\linewidth}
+% \center{Недостатки}
+%   \end{minipage}
+%   \vspace{5pt}
+% 
+%   \begin{minipage}[h]{0.49\linewidth}
+%   \begin{itemize}
+%     \item[+] Интуитивно понятный метод
+%   \end{itemize}
+%   \end{minipage}
+%   \hfill
+%   \begin{minipage}[h]{0.49\linewidth}
+% \begin{itemize}
+%  \item[--] Повторный анализ функций при моделировании вызовов
+%  \item[--] Непроизводительные вычисления
+% \end{itemize}
+%   \end{minipage}
+% \end{figure}
+% \end{frame}
 %--------------------------------------------------------------------------------------------------------
 
 \begin{frame}
-\frametitle{Цель работы}
-Разработать методы межпроцедурного и межмодульного анализа больших и сложных программных систем, реализованных на языках C и C++, для построения универсального анализатора для среды автоматического тестирования с целью повышения эффективности анализа кодов программ.
-%Теоретическое обоснование и исследование подходов для модификации существующего метода межпроцедурного анализа, который будет использован для построения универсального анализатора кодов программ, разработанных с использованием языков C и C++, для дальнейшего встраивания в среду автоматического тестирования, с целью повышения эффективности анализа крупных прикладных программных комплексов
+\frametitle{Межпроцедурный анализ}
+\begin{figure}[h]
+  \center{\includegraphics[width=1\linewidth]{../Dissertation/images/ipa-idef0-hl.pdf}}
+\end{figure}
 \end{frame}
+
 %--------------------------------------------------------------------------------------------------------
 
 \begin{frame}
 \frametitle{Межпроцедурный анализ с помощью резюме}
 \begin{figure}[h]
-  \center{\includegraphics[width=1\linewidth]{images/summary.png}}
+  \center{\includegraphics[width=1\linewidth]{../Dissertation/images/summary-idef0-ll.pdf}}
 \end{figure}
 \end{frame}
 %--------------------------------------------------------------------------------------------------------
-\begin{frame}
-\frametitle{Математическая модель\\для расчёта производительности}
-Межпроцедурный анализ методом встраивания:
-\begin{equation*}
- T_{\text{встраивания полное}} = T_{\text{анализа}} + \sum_{i = 0}^{n} t_i 
-\end{equation*}
-Межпроцедурный анализ \textit{методом резюме}:
-\begin{equation*}
- T_{\text{резюме}} = T_{\text{анализа}} + T_{\text{сбора}} + \sum_{i = 0}^{n} t_{i \text{применения}}
-\end{equation*}
-Откуда получаем выигрыш по времени при выполнении:
-\begin{equation*}
- \sum_{i = 0}^{n} t_{i \text{применения}} <  \sum_{i = 0}^{n} t_i
-\end{equation*}
+
+% \begin{frame}
+% \frametitle{Межпроцедурный анализ с помощью резюме}
+% \begin{figure}[h]
+%   \center{\includegraphics[width=1\linewidth]{images/summary.png}}
+% \end{figure}
+% \end{frame}
+%--------------------------------------------------------------------------------------------------------
+% \begin{frame}
+% \frametitle{Математическая модель\\для расчёта производительности}
+% Межпроцедурный анализ методом встраивания:
+% \begin{equation*}
+%  T_{\text{встраивания полное}} = T_{\text{анализа}} + \sum_{i = 0}^{n} t_i 
+% \end{equation*}
+% Межпроцедурный анализ \textit{методом резюме}:
+% \begin{equation*}
+%  T_{\text{резюме}} = T_{\text{анализа}} + T_{\text{сбора}} + \sum_{i = 0}^{n} t_{i \text{применения}}
+% \end{equation*}
+% Откуда получаем выигрыш по времени при выполнении:
+% \begin{equation*}
+%  \sum_{i = 0}^{n} t_{i \text{применения}} <  \sum_{i = 0}^{n} t_i
+% \end{equation*}
 
 % \begin{equation*}
 %  t_{\text{ср. применения резюме}} = \frac{\sum_{i = 0}^{n} t_{i \text{применения}}}{n},
@@ -336,46 +332,53 @@ int test(int a, int b) {
 %  t_{\text{ср. встраивания}} = \frac{\sum_{i = 0}^{n} t_i}{n}
 % \end{equation*}
 
-\end{frame}
+%\end{frame}
 
 %--------------------------------------------------------------------------------------------------------
 
 \begin{frame}
-\frametitle{Учитываемые эффекты выполнения функции}
+\frametitle{Учитываемые эффекты выполнения функции\\в методе межпроцедурного анализа на~основе резюме}
 В резюме функции сохраняются следующие эффекты, влияющие на состояние программы:
 \begin{figure}[h]
-\begin{tikzpicture}[ampersand replacement=\&,thick,anchor=base,
-                    node distance=3cm,
-                  %  text height=7ex,
-                    text depth=.25ex,
-                      align=center]
-\tikzstyle{format} = [anchor=center,thick,
-                      minimum size=1cm,
-                      draw=black,text centered,
-                      top color=white]
+  \center{\includegraphics[width=1\linewidth]{../Dissertation/images/effects.pdf}}
 
-\tikzstyle{selected} = [thick,anchor=center,
-                      minimum size=1cm,
-                      draw=black,
-                      top color=gray]
-  \matrix (mat) [matrix of nodes, nodes=format, column sep=5mm, row sep=15mm, align=center, ] 
-{
-\node[format] (int) {Модификация\\нелокальной\\памяти}; \& \node[selected]       (char) {Эффекты}; \& \node[format] (univ) {Инвалидация};\\
-\node[format]  (compl) {Возврат\\значения}; \& \node[format] (lims)  {Ограничения\\входных\\данных}; \& \node[format] (prec)  {Состояния\\проверок}; \\
-};
-\path[->] (char) edge node {} (compl);
-\path[->] (char) edge node {} (prec);
-\path[->] (char) edge node {} (univ);
-\path[->] (char) edge node {} (int);
-\path[->] (char) edge node {} (lims);
-\end{tikzpicture}
+% \begin{tikzpicture}[ampersand replacement=\&,thick,anchor=base,
+%                     node distance=3cm,
+%                   %  text height=7ex,
+%                     text depth=.25ex,
+%                       align=center]
+% \tikzstyle{format} = [anchor=center,thick,
+%                       minimum size=1cm,
+%                       draw=black,text centered,
+%                       top color=white]
+% 
+% \tikzstyle{selected} = [thick,anchor=center,
+%                       minimum size=1cm,
+%                       draw=black,
+%                       top color=gray]
+%   \matrix (mat) [matrix of nodes, nodes=format, column sep=5mm, row sep=15mm, align=center, ] 
+% {
+% \node[format] (int) {Модификация\\нелокальной\\памяти}; \& \node[selected]       (char) {Эффекты}; \& \node[format] (univ) {Инвалидация};\\
+% \node[format]  (compl) {Возврат\\значения}; \& \node[format] (lims)  {Ограничения\\входных\\данных}; \& \node[format] (prec)  {Состояния\\проверок}; \\
+% };
+% \path[->] (char) edge node {} (compl);
+% \path[->] (char) edge node {} (prec);
+% \path[->] (char) edge node {} (univ);
+% \path[->] (char) edge node {} (int);
+% \path[->] (char) edge node {} (lims);
+% \end{tikzpicture}
 \end{figure}
 \end{frame}
 
 %--------------------------------------------------------------------------------------------------------
 
 \begin{frame}
-\frametitle{Достижимость ветвей выполнения}
+\frametitle{Достижимость ветвей в графе выполнения программы}
+
+\textbf{Формализация предусловий, позволяющих выделить и уточнить условия в достижимых ветвях графа выполнения и убрать из рассмотрения недостижимые, описывается с помощью следующих формальных правил: }
+
+\vspace{20pt}
+
 Расчёт нового множества конкретных значений $R_{ij}$ для символьного значения $j$ в ветви выполнения $i$:
 \begin{equation*}
 \label{result_sval}
@@ -395,43 +398,43 @@ $p_{i}$~--- количество символьных значений в $i$-й
 
 %--------------------------------------------------------------------------------------------------------
 
-\begin{frame}
-\frametitle{Полнота анализа}
-\textbf{Теорема 1}. Если при использовании проверки с помощью метода встраивания результатом проверки является предупреждение, выданное в некотором узле графа выполнения программы, то при использовании метода резюме для той же функции верхнего уровня и того же набора вызываемых функций результатом проверки методом резюме также является предупреждение, выданное в узле графа выполнения вызывающей функции или в одном из узлов графов выполнения вызываемых функций.
-
-\vspace{10pt}
-\textbf{Теорема 2}. При использовании отложенной проверки в конце анализа функции верхнего уровня при использовании МПА методом встраивания и МПА методом резюме множества срабатываний совпадают.
-\end{frame}
+% \begin{frame}
+% \frametitle{Полнота анализа}
+% \textbf{Теорема 1}. Если при использовании проверки с помощью метода встраивания результатом проверки является предупреждение, выданное в некотором узле графа выполнения программы, то при использовании метода резюме для той же функции верхнего уровня и того же набора вызываемых функций результатом проверки методом резюме также является предупреждение, выданное в узле графа выполнения вызывающей функции или в одном из узлов графов выполнения вызываемых функций.
+% 
+% \vspace{10pt}
+% \textbf{Теорема 2}. При использовании отложенной проверки в конце анализа функции верхнего уровня при использовании МПА методом встраивания и МПА методом резюме множества срабатываний совпадают.
+% \end{frame}
 %--------------------------------------------------------------------------------------------------------
-
-\begin{frame}
-\frametitle{Поддержка произвольных видов проверок\\в резюме}
-\begin{figure}[h]
-\begin{tikzpicture}[ampersand replacement=\&,thick,anchor=base,
-                    node distance=3cm,
-                  %  text height=7ex,
-                    text depth=.25ex,
-                      align=center]
-\tikzstyle{format} = [anchor=center,thick,
-                      minimum size=1cm,
-                      draw=black,text centered,
-                      top color=white]
-
-\tikzstyle{selected} = [thick,anchor=center,
-                      minimum size=1cm,
-                      draw=black,
-                      top color=gray]
-  \matrix (mat) [matrix of nodes, nodes=format, column sep=5mm, row sep=15mm, align=center, ] 
-{
-\& \node[selected]       (char) {Поддержка произвольных\\проверок}; \& \\
-\node[format]  (compl) {Отложенные\\проверки}; \& \node[format]  (univ) {Поддержка\\метаданных}; \& \node[format] (prec)  {Состояние\\проверки}; \\
-};
-\path[->] (char) edge node {} (compl);
-\path[->] (char) edge node {} (prec);
-\path[->] (char) edge node {} (univ);
-\end{tikzpicture}
-\end{figure}
-\end{frame}
+% 
+% \begin{frame}
+% \frametitle{Поддержка произвольных видов проверок\\в резюме}
+% \begin{figure}[h]
+% \begin{tikzpicture}[ampersand replacement=\&,thick,anchor=base,
+%                     node distance=3cm,
+%                   %  text height=7ex,
+%                     text depth=.25ex,
+%                       align=center]
+% \tikzstyle{format} = [anchor=center,thick,
+%                       minimum size=1cm,
+%                       draw=black,text centered,
+%                       top color=white]
+% 
+% \tikzstyle{selected} = [thick,anchor=center,
+%                       minimum size=1cm,
+%                       draw=black,
+%                       top color=gray]
+%   \matrix (mat) [matrix of nodes, nodes=format, column sep=5mm, row sep=15mm, align=center, ] 
+% {
+% \& \node[selected]       (char) {Поддержка произвольных\\проверок}; \& \\
+% \node[format]  (compl) {Отложенные\\проверки}; \& \node[format]  (univ) {Поддержка\\метаданных}; \& \node[format] (prec)  {Состояние\\проверки}; \\
+% };
+% \path[->] (char) edge node {} (compl);
+% \path[->] (char) edge node {} (prec);
+% \path[->] (char) edge node {} (univ);
+% \end{tikzpicture}
+% \end{figure}
+% \end{frame}
 
 %--------------------------------------------------------------------------------------------------------
 
@@ -781,6 +784,45 @@ $p_{i}$~--- количество символьных значений в $i$-й
   \center{\includegraphics[width=1\linewidth]{images/applyscheme.png}}
 \end{figure}
 \end{frame}
+
+%--------------------------------------------------------------------------------------------------------
+
+\begin{frame}
+\frametitle{Анализируемые объёмы кодов программ}
+Характеристики тестовой базы ОС Android 4.2.1
+\begin{table} [htbp]
+  \centering
+  \parbox{15cm}{\label{table:android-char}}
+%  \begin{center}
+  \begin{tabular}{| p{0.7\linewidth} || p{0.2\linewidth} |}
+  \hline
+  \hline
+  \textbf{Характеристика}   & \textbf{Значение} \\
+  \hline
+  \hline
+  Количество строк кода   & 10 млн \\
+  \hline
+  Количество файлов исходного кода      & 31038    \\
+  \hline
+  Количество транслируемых модулей  & 20635   \\
+  \hline
+  Количество архитектур на построение & 2   \\
+  \hline
+  Количество пакетов & 389 \\
+  \hline
+  \hline
+  \end{tabular}
+%  \end{center}
+\end{table}
+\end{frame}
+%--------------------------------------------------------------------------------------------------------
+\begin{frame}
+\frametitle{C/C++ пакеты системы Android 4.2.1~---\\диаграмма связей}
+\begin{figure}[h]
+  \center{\includegraphics[height=0.65\linewidth]{../Dissertation/images/callgraph.pdf}}
+\end{figure}
+\end{frame}
+
 %--------------------------------------------------------------------------------------------------------
 
 \begin{frame}[allowframebreaks]

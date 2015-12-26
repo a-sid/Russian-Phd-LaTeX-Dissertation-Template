@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="26cm" height="12cm" viewBox="-416 183 503 226" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="-414.943" y1="268.498" x2="-264.679" y2="268.498"/>
+    <polygon style="fill: #000000" points="-257.179,268.498 -267.179,273.498 -264.679,268.498 -267.179,263.498 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="-257.179,268.498 -267.179,273.498 -264.679,268.498 -267.179,263.498 "/>
+  </g>
+  <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="-393.943" y="243.498">
+    <tspan x="-393.943" y="243.498">Состояние</tspan>
+    <tspan x="-393.943" y="259.498">программы</tspan>
+  </text>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="-414.943" y1="328.498" x2="-264.679" y2="328.498"/>
+    <polygon style="fill: #000000" points="-257.179,328.498 -267.179,333.498 -264.679,328.498 -267.179,323.498 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="-257.179,328.498 -267.179,333.498 -264.679,328.498 -267.179,323.498 "/>
+  </g>
+  <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="-409.943" y="302.498">
+    <tspan x="-409.943" y="302.498">Определение</tspan>
+    <tspan x="-409.943" y="318.498">вызываемой функции</tspan>
+  </text>
+  <g>
+    <rect style="fill: #ffffff" x="-254.943" y="248.498" width="160" height="100"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-254.943" y="248.498" width="160" height="100"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="-174.943" y="286.398">
+      <tspan x="-174.943" y="286.398">Моделирование</tspan>
+      <tspan x="-174.943" y="302.398">вызова</tspan>
+      <tspan x="-174.943" y="318.398">функции</tspan>
+    </text>
+    <text font-size="9.59985" style="fill: #000000;text-anchor:end;font-family:sans-serif;font-style:normal;font-weight:700" x="-98.5431" y="344.898">A0</text>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="-174.943" y1="408.498" x2="-174.943" y2="358.234"/>
+    <polygon style="fill: #000000" points="-174.943,350.734 -169.943,360.734 -174.943,358.234 -179.943,360.734 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="-174.943,350.734 -169.943,360.734 -174.943,358.234 -179.943,360.734 "/>
+  </g>
+  <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="-254.943" y="388.498">
+    <tspan x="-254.943" y="388.498">Метод МПА</tspan>
+  </text>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="-94.9431" y1="298.498" x2="74.2643" y2="297.082"/>
+    <polygon style="fill: #000000" points="81.764,297.019 71.8062,302.102 74.2643,297.082 71.7225,292.103 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="81.764,297.019 71.8062,302.102 74.2643,297.082 71.7225,292.103 "/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="-175.322" y1="202.225" x2="-175.023" y2="238.763"/>
+    <polygon style="fill: #000000" points="-174.961,246.262 -180.043,236.304 -175.023,238.763 -170.044,236.222 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="-174.961,246.262 -180.043,236.304 -175.023,238.763 -170.044,236.222 "/>
+  </g>
+  <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="-241.054" y="195.855">
+    <tspan x="-241.054" y="195.855">Опции анализатора</tspan>
+  </text>
+  <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="-81.8" y="249.8">
+    <tspan x="-81.8" y="249.8">Новые узлы</tspan>
+    <tspan x="-81.8" y="265.8">графа выполнения</tspan>
+    <tspan x="-81.8" y="281.8">вызывающей функции</tspan>
+  </text>
+</svg>

@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="51cm" height="26cm" viewBox="-127 -171 1002 520" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g>
+    <rect style="fill: #ffffff" x="295.841" y="17.977" width="160" height="80"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="295.841" y="17.977" width="160" height="80"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="375.841" y="61.877">
+      <tspan x="375.841" y="61.877">Сбор эффектов</tspan>
+    </text>
+    <text font-size="9.59985" style="fill: #000000;text-anchor:end;font-family:sans-serif;font-style:normal;font-weight:700" x="452.241" y="94.377">A2</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="501.863" y="117.819" width="197.5" height="92.2813"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="501.863" y="117.819" width="197.5" height="92.2813"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="600.613" y="151.859">
+      <tspan x="600.613" y="151.859">Применение резюме</tspan>
+      <tspan x="600.613" y="167.859">на основе </tspan>
+      <tspan x="600.613" y="183.859">предложенного метода</tspan>
+    </text>
+    <text font-size="9.59985" style="fill: #000000;text-anchor:end;font-family:sans-serif;font-style:normal;font-weight:700" x="695.763" y="206.5">A3</text>
+  </g>
+  <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="269.636" y="-28.9569">
+    <tspan x="269.636" y="-28.9569">Граф выполнения</tspan>
+    <tspan x="269.636" y="-12.9569">вызываемой функции</tspan>
+  </text>
+  <g>
+    <rect style="fill: #ffffff" x="31" y="-92" width="200" height="80"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="31" y="-92" width="200" height="80"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="131" y="-64.1">
+      <tspan x="131" y="-64.1">Анализ функции</tspan>
+      <tspan x="131" y="-48.1">вне контекста</tspan>
+      <tspan x="131" y="-32.1">вызова</tspan>
+    </text>
+    <text font-size="9.59985" style="fill: #000000;text-anchor:end;font-family:sans-serif;font-style:normal;font-weight:700" x="227.4" y="-15.6">A1</text>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="-125.696" y1="-51.768" x2="21.2639" y2="-51.9856"/>
+    <polygon style="fill: #000000" points="28.7639,-51.9967 18.7713,-46.9819 21.2639,-51.9856 18.7565,-56.9819 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="28.7639,-51.9967 18.7713,-46.9819 21.2639,-51.9856 18.7565,-56.9819 "/>
+  </g>
+  <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="-124.8" y="-77.2">
+    <tspan x="-124.8" y="-77.2">Определение</tspan>
+    <tspan x="-124.8" y="-61.2">вызываемой функции</tspan>
+  </text>
+  <g>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 259,-42.1005 A 9.89949,9.89949 0 0 0 249.101,-52"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="231" y1="-52" x2="249.101" y2="-52"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 259,50.9622 A 7.01482,7.01482 0 0 0 266.015,57.977"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="259" y1="-42.1005" x2="259" y2="50.9622"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="266.015" y1="57.977" x2="278.841" y2="57.977"/>
+    <polygon style="fill: #000000" points="278.841,65.977 294.841,57.977 278.841,49.977 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="278.841,65.977 294.841,57.977 278.841,49.977 "/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="70.2962" y1="69.1038" x2="70.9155" y2="-2.2643"/>
+    <polygon style="fill: #000000" points="70.9806,-9.76402 75.8936,0.278996 70.9155,-2.2643 65.894,0.192219 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="70.9806,-9.76402 75.8936,0.278996 70.9155,-2.2643 65.894,0.192219 "/>
+  </g>
+  <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="30.1467" y="91.9071">
+    <tspan x="30.1467" y="91.9071">Алгоритм</tspan>
+    <tspan x="30.1467" y="107.907">символьного</tspan>
+    <tspan x="30.1467" y="123.907">выполнения</tspan>
+  </text>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="190.293" y1="72.1037" x2="190.918" y2="-2.26428"/>
+    <polygon style="fill: #000000" points="190.981,-9.76401 195.897,0.277677 190.918,-2.26428 185.897,0.193594 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="190.981,-9.76401 195.897,0.277677 190.918,-2.26428 185.897,0.193594 "/>
+  </g>
+  <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="142.464" y="95.9204">
+    <tspan x="142.464" y="95.9204">Семантическая</tspan>
+    <tspan x="142.464" y="111.92">модель языка</tspan>
+  </text>
+  <g>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 472.285,63.7908 A 5.81383,5.81383 0 0 0 466.471,57.977"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="455.841" y1="57.977" x2="466.471" y2="57.977"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 472.285,136.442 A 4.44698,4.44698 0 0 0 476.732,140.889"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="472.285" y1="63.7908" x2="472.285" y2="136.442"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="476.732" y1="140.889" x2="484.863" y2="140.889"/>
+    <polygon style="fill: #000000" points="484.863,148.889 500.863,140.889 484.863,132.889 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="484.863,148.889 500.863,140.889 484.863,132.889 "/>
+  </g>
+  <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="481.578" y="99.9871">
+    <tspan x="481.578" y="99.9871">Резюме функции</tspan>
+  </text>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="699.363" y1="163.959" x2="862.899" y2="164.136"/>
+    <polygon style="fill: #000000" points="870.399,164.144 860.393,169.133 862.899,164.136 860.404,159.133 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="870.399,164.144 860.393,169.133 862.899,164.136 860.404,159.133 "/>
+  </g>
+  <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="709.296" y="125.274">
+    <tspan x="709.296" y="125.274">Новые узлы</tspan>
+    <tspan x="709.296" y="141.274">графа выполнения</tspan>
+    <tspan x="709.296" y="157.274">вызывающей функции</tspan>
+  </text>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="429.273" y1="292.843" x2="429.179" y2="107.713"/>
+    <polygon style="fill: #000000" points="429.175,100.213 434.18,110.211 429.179,107.713 424.18,110.216 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="429.175,100.213 434.18,110.211 429.179,107.713 424.18,110.216 "/>
+  </g>
+  <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="414.072" y="306.054">
+    <tspan x="414.072" y="306.054">Модули, проверяющие</tspan>
+    <tspan x="414.072" y="322.054">наличие дефектов</tspan>
+  </text>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="322.286" y1="293.491" x2="322.497" y2="107.713"/>
+    <polygon style="fill: #000000" points="322.505,100.213 327.494,110.219 322.497,107.713 317.494,110.207 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="322.505,100.213 327.494,110.219 322.497,107.713 317.494,110.207 "/>
+  </g>
+  <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="268.417" y="306.471">
+    <tspan x="268.417" y="306.471">Символьный</tspan>
+    <tspan x="268.417" y="322.471">решатель</tspan>
+  </text>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="376.103" y1="330.45" x2="375.852" y2="107.713"/>
+    <polygon style="fill: #000000" points="375.843,100.213 380.855,110.207 375.852,107.713 370.855,110.219 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="375.843,100.213 380.855,110.207 375.852,107.713 370.855,110.219 "/>
+  </g>
+  <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="338.625" y="345.296">
+    <tspan x="338.625" y="345.296">Модель памяти</tspan>
+  </text>
+  <g>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #727272" d="M 338.18,237.768 A 15,15 0 0 0 323.18,252.768"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #727272" x1="323.18" y1="290.8" x2="323.18" y2="252.768"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #727272" d="M 547.466,237.768 A 3.77191,3.77191 0 0 0 551.238,233.996"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #727272" x1="338.18" y1="237.768" x2="547.466" y2="237.768"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #727272" x1="551.238" y1="233.996" x2="551.238" y2="227.1"/>
+    <polygon style="fill: #727272" points="559.238,227.1 551.238,211.1 543.238,227.1 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #727272" points="559.238,227.1 551.238,211.1 543.238,227.1 "/>
+  </g>
+  <g>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #727272" d="M 390.505,256.153 A 15,15 0 0 0 375.505,271.153"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #727272" x1="375.505" y1="328.983" x2="375.505" y2="271.153"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #727272" d="M 590.341,256.153 A 10.2718,10.2718 0 0 0 600.613,245.881"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #727272" x1="390.505" y1="256.153" x2="590.341" y2="256.153"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #727272" x1="600.613" y1="245.881" x2="600.613" y2="227.1"/>
+    <polygon style="fill: #727272" points="608.613,227.1 600.613,211.1 592.613,227.1 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #727272" points="608.613,227.1 600.613,211.1 592.613,227.1 "/>
+  </g>
+  <g>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #727272" d="M 435.701,273.123 A 5.74987,5.74987 0 0 0 429.951,278.873"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #727272" x1="429.951" y1="289.386" x2="429.951" y2="278.873"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #727272" d="M 634.988,273.123 A 15,15 0 0 0 649.988,258.123"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #727272" x1="435.701" y1="273.123" x2="634.988" y2="273.123"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #727272" x1="649.988" y1="258.123" x2="649.988" y2="227.1"/>
+    <polygon style="fill: #727272" points="657.988,227.1 649.988,211.1 641.988,227.1 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #727272" points="657.988,227.1 649.988,211.1 641.988,227.1 "/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="131.228" y1="-149.497" x2="131.039" y2="-101.736"/>
+    <polygon style="fill: #000000" points="131.009,-94.2361 126.049,-104.256 131.039,-101.736 136.049,-104.216 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="131.009,-94.2361 126.049,-104.256 131.039,-101.736 136.049,-104.216 "/>
+  </g>
+  <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="63.2287" y="-158.837">
+    <tspan x="63.2287" y="-158.837">Опции анализатора</tspan>
+  </text>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="162.294" y1="188.1" x2="492.127" y2="187.06"/>
+    <polygon style="fill: #000000" points="499.627,187.037 489.643,192.068 492.127,187.06 489.611,182.068 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="499.627,187.037 489.643,192.068 492.127,187.06 489.611,182.068 "/>
+  </g>
+  <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="159.494" y="163.901">
+    <tspan x="159.494" y="163.901">Состояние</tspan>
+    <tspan x="159.494" y="179.901">программы</tspan>
+  </text>
+</svg>

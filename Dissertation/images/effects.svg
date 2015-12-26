@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="28cm"
+   height="10cm"
+   viewBox="39 18 542 193"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="effects.svg">
+  <metadata
+     id="metadata120">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs118" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1280"
+     inkscape:window-height="741"
+     id="namedview116"
+     showgrid="false"
+     inkscape:zoom="0.62861793"
+     inkscape:cx="383.87219"
+     inkscape:cy="189.30343"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg2" />
+  <g
+     id="g4">
+    <rect
+       style="fill: #ffffff"
+       x="40"
+       y="20"
+       width="140"
+       height="70"
+       id="rect6" />
+    <rect
+       style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000"
+       x="40"
+       y="20"
+       width="140"
+       height="70"
+       id="rect8" />
+    <text
+       font-size="12.7998"
+       style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal"
+       x="110"
+       y="42.9"
+       id="text10">
+      <tspan
+         x="110"
+         y="42.9"
+         id="tspan12">Модификация</tspan>
+      <tspan
+         x="110"
+         y="58.9"
+         id="tspan14">нелокальной</tspan>
+      <tspan
+         x="110"
+         y="74.9"
+         id="tspan16">памяти</tspan>
+    </text>
+  </g>
+  <g
+     id="g18">
+    <rect
+       style="fill: #ffffff"
+       x="240"
+       y="20"
+       width="140"
+       height="70"
+       id="rect20" />
+    <rect
+       style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000"
+       x="240"
+       y="20"
+       width="140"
+       height="70"
+       id="rect22" />
+    <text
+       font-size="12.7998"
+       style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal"
+       x="310"
+       y="58.9"
+       id="text24"
+       sodipodi:linespacing="125%">
+      <tspan
+         x="310"
+         y="58.9"
+         id="tspan26"
+         style="-inkscape-font-specification:'DejaVu Sans, Bold Oblique Semi-Condensed';font-family:'DejaVu Sans';font-weight:bold;font-style:oblique;font-stretch:semi-condensed;font-variant:normal;font-size:12.79984617px;text-anchor:middle;text-align:center;writing-mode:lr;line-height:125%">Эффекты</tspan>
+    </text>
+  </g>
+  <g
+     id="g28">
+    <rect
+       style="fill: #ffffff"
+       x="440"
+       y="20"
+       width="140"
+       height="70"
+       id="rect30" />
+    <rect
+       style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000"
+       x="440"
+       y="20"
+       width="140"
+       height="70"
+       id="rect32" />
+    <text
+       font-size="12.7998"
+       style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal"
+       x="510"
+       y="58.9"
+       id="text34">
+      <tspan
+         x="510"
+         y="58.9"
+         id="tspan36">Инвалидация</tspan>
+    </text>
+  </g>
+  <g
+     id="g38">
+    <rect
+       style="fill: #ffffff"
+       x="40"
+       y="140"
+       width="140"
+       height="70"
+       id="rect40" />
+    <rect
+       style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000"
+       x="40"
+       y="140"
+       width="140"
+       height="70"
+       id="rect42" />
+    <text
+       font-size="12.7998"
+       style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal"
+       x="110"
+       y="170.9"
+       id="text44">
+      <tspan
+         x="110"
+         y="170.9"
+         id="tspan46">Возврат</tspan>
+      <tspan
+         x="110"
+         y="186.9"
+         id="tspan48">значения</tspan>
+    </text>
+  </g>
+  <g
+     id="g50">
+    <rect
+       style="fill: #ffffff"
+       x="240"
+       y="140"
+       width="140"
+       height="70"
+       id="rect52" />
+    <rect
+       style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000"
+       x="240"
+       y="140"
+       width="140"
+       height="70"
+       id="rect54" />
+    <text
+       font-size="12.7998"
+       style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal"
+       x="310"
+       y="162.9"
+       id="text56">
+      <tspan
+         x="310"
+         y="162.9"
+         id="tspan58">Ограничения</tspan>
+      <tspan
+         x="310"
+         y="178.9"
+         id="tspan60">входных</tspan>
+      <tspan
+         x="310"
+         y="194.9"
+         id="tspan62">данных</tspan>
+    </text>
+  </g>
+  <g
+     id="g64">
+    <rect
+       style="fill: #ffffff"
+       x="440"
+       y="140"
+       width="140"
+       height="70"
+       id="rect66" />
+    <rect
+       style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000"
+       x="440"
+       y="140"
+       width="140"
+       height="70"
+       id="rect68" />
+    <text
+       font-size="12.7998"
+       style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal"
+       x="510"
+       y="170.9"
+       id="text70">
+      <tspan
+         x="510"
+         y="170.9"
+         id="tspan72">Состояния</tspan>
+      <tspan
+         x="510"
+         y="186.9"
+         id="tspan74">проверок</tspan>
+    </text>
+  </g>
+  <g
+     id="g76">
+    <line
+       style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000"
+       x1="238.998"
+       y1="55"
+       x2="190.738"
+       y2="55"
+       id="line78" />
+    <polygon
+       style="fill: #000000"
+       points="183.238,55 193.238,50 190.738,55 193.238,60 "
+       id="polygon80" />
+    <polygon
+       style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000"
+       points="183.238,55 193.238,50 190.738,55 193.238,60 "
+       id="polygon82" />
+  </g>
+  <g
+     id="g84">
+    <line
+       style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000"
+       x1="381.002"
+       y1="55"
+       x2="429.262"
+       y2="55"
+       id="line86" />
+    <polygon
+       style="fill: #000000"
+       points="436.762,55 426.762,60 429.262,55 426.762,50 "
+       id="polygon88" />
+    <polygon
+       style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000"
+       points="436.762,55 426.762,60 429.262,55 426.762,50 "
+       id="polygon90" />
+  </g>
+  <g
+     id="g92">
+    <line
+       style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000"
+       x1="369.985"
+       y1="90.9912"
+       x2="441.666"
+       y2="134"
+       id="line94" />
+    <polygon
+       style="fill: #000000"
+       points="448.097,137.858 436.95,137.001 441.666,134 442.095,128.426 "
+       id="polygon96" />
+    <polygon
+       style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000"
+       points="448.097,137.858 436.95,137.001 441.666,134 442.095,128.426 "
+       id="polygon98" />
+  </g>
+  <g
+     id="g100">
+    <line
+       style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000"
+       x1="310"
+       y1="90.9912"
+       x2="310"
+       y2="129.273"
+       id="line102" />
+    <polygon
+       style="fill: #000000"
+       points="310,136.773 305,126.773 310,129.273 315,126.773 "
+       id="polygon104" />
+    <polygon
+       style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000"
+       points="310,136.773 305,126.773 310,129.273 315,126.773 "
+       id="polygon106" />
+  </g>
+  <g
+     id="g108">
+    <line
+       style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000"
+       x1="250.015"
+       y1="90.9912"
+       x2="178.334"
+       y2="134"
+       id="line110" />
+    <polygon
+       style="fill: #000000"
+       points="171.903,137.858 177.905,128.426 178.334,134 183.05,137.001 "
+       id="polygon112" />
+    <polygon
+       style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000"
+       points="171.903,137.858 177.905,128.426 178.334,134 183.05,137.001 "
+       id="polygon114" />
+  </g>
+</svg>
