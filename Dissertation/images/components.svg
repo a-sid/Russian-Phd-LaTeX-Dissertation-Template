@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="45cm" height="22cm" viewBox="359 67 891 424" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g>
+    <rect style="fill: #ffffff" x="423.568" y="280" width="171.45" height="70"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="423.568" y="280" width="171.45" height="70"/>
+    <rect style="fill: #ffffff" x="403.568" y="294" width="40" height="14"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="403.568" y="294" width="40" height="14"/>
+    <rect style="fill: #ffffff" x="403.568" y="322" width="40" height="14"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="403.568" y="322" width="40" height="14"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="451.568" y="305.9">
+      <tspan x="451.568" y="305.9">strace_interceptor.py</tspan>
+    </text>
+  </g>
+  <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="426" y="339">
+    <tspan x="426" y="339"></tspan>
+  </text>
+  <g>
+    <rect style="fill: #ffffff" x="753" y="80" width="164.05" height="70"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="753" y="80" width="164.05" height="70"/>
+    <rect style="fill: #ffffff" x="733" y="94" width="40" height="14"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="733" y="94" width="40" height="14"/>
+    <rect style="fill: #ffffff" x="733" y="122" width="40" height="14"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="733" y="122" width="40" height="14"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="781" y="105.9">
+      <tspan x="781" y="105.9">clang-func-mapping</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="540" y="420" width="221.75" height="70"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="540" y="420" width="221.75" height="70"/>
+    <rect style="fill: #ffffff" x="520" y="434" width="40" height="14"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="520" y="434" width="40" height="14"/>
+    <rect style="fill: #ffffff" x="520" y="462" width="40" height="14"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="520" y="462" width="40" height="14"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="568" y="445.9">
+      <tspan x="568" y="445.9">clang-cmdline-arch-extractor</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #bfbfbf" x="800" y="260" width="70.7" height="70"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="800" y="260" width="70.7" height="70"/>
+    <rect style="fill: #bfbfbf" x="780" y="274" width="40" height="14"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="780" y="274" width="40" height="14"/>
+    <rect style="fill: #bfbfbf" x="780" y="302" width="40" height="14"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="780" y="302" width="40" height="14"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="828" y="285.9">
+      <tspan x="828" y="285.9">clang</tspan>
+    </text>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 20; stroke: #000000" x1="489.307" y1="278.994" x2="489.341" y2="160.739"/>
+    <polygon style="fill: #000000" points="489.343,153.239 494.34,163.241 489.341,160.739 484.34,163.238 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="489.343,153.239 494.34,163.241 489.341,160.739 484.34,163.238 "/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 20; stroke: #000000" x1="815.065" y1="150.995" x2="815.242" y2="249.298"/>
+    <polygon style="fill: #000000" points="815.256,256.798 810.238,246.807 815.242,249.298 820.238,246.789 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="815.256,256.798 810.238,246.807 815.242,249.298 820.238,246.789 "/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 20; stroke: #000000" x1="511.484" y1="350.943" x2="573.399" y2="412.167"/>
+    <polygon style="fill: #000000" points="578.732,417.44 568.106,413.964 573.399,412.167 575.137,406.853 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="578.732,417.44 568.106,413.964 573.399,412.167 575.137,406.853 "/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 20; stroke: #000000" x1="688.535" y1="418.99" x2="782.627" y2="337.381"/>
+    <polygon style="fill: #000000" points="788.293,332.467 784.015,342.796 782.627,337.381 777.463,335.242 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="788.293,332.467 784.015,342.796 782.627,337.381 777.463,335.242 "/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 20; stroke: #000000" x1="529.185" y1="150.995" x2="770.484" y2="284.227"/>
+    <polygon style="fill: #000000" points="777.05,287.853 765.879,287.396 770.484,284.227 770.712,278.642 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="777.05,287.853 765.879,287.396 770.484,284.227 770.712,278.642 "/>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="440" y="80" width="138.7" height="70"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="440" y="80" width="138.7" height="70"/>
+    <rect style="fill: #ffffff" x="420" y="94" width="40" height="14"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="420" y="94" width="40" height="14"/>
+    <rect style="fill: #ffffff" x="420" y="122" width="40" height="14"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="420" y="122" width="40" height="14"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="468" y="105.9">
+      <tspan x="468" y="105.9">xtu-intercept.py</tspan>
+    </text>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 20; stroke: #000000" x1="579.694" y1="129" x2="722.27" y2="129"/>
+    <polygon style="fill: #000000" points="729.77,129 719.77,134 722.27,129 719.77,124 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="729.77,129 719.77,134 722.27,129 719.77,124 "/>
+  </g>
+  <g>
+    <rect style="fill: #bfbfbf" x="900" y="420" width="125.4" height="70"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="900" y="420" width="125.4" height="70"/>
+    <rect style="fill: #bfbfbf" x="880" y="434" width="40" height="14"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="880" y="434" width="40" height="14"/>
+    <rect style="fill: #bfbfbf" x="880" y="462" width="40" height="14"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="880" y="462" width="40" height="14"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="928" y="445.9">
+      <tspan x="928" y="445.9">Clang Static</tspan>
+      <tspan x="928" y="461.9">Analyzer</tspan>
+      <tspan x="928" y="477.9">(библиотека)</tspan>
+    </text>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 20; stroke: #000000" x1="832.862" y1="331.002" x2="896.832" y2="411.373"/>
+    <polygon style="fill: #000000" points="901.503,417.241 891.363,412.53 896.832,411.373 899.187,406.303 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="901.503,417.241 891.363,412.53 896.832,411.373 899.187,406.303 "/>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="1073" y="80" width="130.65" height="70"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1073" y="80" width="130.65" height="70"/>
+    <rect style="fill: #ffffff" x="1053" y="94" width="40" height="14"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1053" y="94" width="40" height="14"/>
+    <rect style="fill: #ffffff" x="1053" y="122" width="40" height="14"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1053" y="122" width="40" height="14"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="1101" y="105.9">
+      <tspan x="1101" y="105.9">xtu-analyze.py</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #bfbfbf" x="1080" y="260" width="116.55" height="70"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1080" y="260" width="116.55" height="70"/>
+    <rect style="fill: #bfbfbf" x="1060" y="274" width="40" height="14"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1060" y="274" width="40" height="14"/>
+    <rect style="fill: #bfbfbf" x="1060" y="302" width="40" height="14"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1060" y="302" width="40" height="14"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="1108" y="285.9">
+      <tspan x="1108" y="285.9">ccc-analyzer</tspan>
+    </text>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 20; stroke: #000000" x1="1118.32" y1="150.995" x2="1118.29" y2="249.298"/>
+    <polygon style="fill: #000000" points="1118.29,256.798 1113.29,246.797 1118.29,249.298 1123.29,246.8 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1118.29,256.798 1113.29,246.797 1118.29,249.298 1123.29,246.8 "/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 20; stroke: #000000" x1="1059.02" y1="309" x2="881.367" y2="309"/>
+    <polygon style="fill: #000000" points="873.867,309 883.867,304 881.367,309 883.867,314 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="873.867,309 883.867,304 881.367,309 883.867,314 "/>
+  </g>
+  <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="600" y="80">
+    <tspan x="600" y="80">&lt;&lt;Строит</tspan>
+    <tspan x="600" y="96">локальный</tspan>
+    <tspan x="600" y="112">граф вызовов&gt;&gt;</tspan>
+  </text>
+  <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="360" y="220">
+    <tspan x="360" y="220">&lt;&lt;Запускает&gt;&gt;</tspan>
+  </text>
+  <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="420" y="380">
+    <tspan x="420" y="380">&lt;&lt;Получает</tspan>
+    <tspan x="420" y="396">целевую</tspan>
+    <tspan x="420" y="412">архитектуру&gt;&gt;</tspan>
+  </text>
+  <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="1140" y="180">
+    <tspan x="1140" y="180">&lt;&lt;Запускает</tspan>
+    <tspan x="1140" y="196">с командой</tspan>
+    <tspan x="1140" y="212">построения&gt;&gt;</tspan>
+  </text>
+  <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="920" y="262">
+    <tspan x="920" y="262">&lt;&lt;Запускает</tspan>
+    <tspan x="920" y="278">с командой</tspan>
+    <tspan x="920" y="294">анализа&gt;&gt;</tspan>
+  </text>
+  <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="640" y="174">
+    <tspan x="640" y="174">&lt;&lt;Сериализует</tspan>
+    <tspan x="640" y="190">синтаксические</tspan>
+    <tspan x="640" y="206">деревья&gt;&gt;</tspan>
+  </text>
+  <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="880" y="380">
+    <tspan x="880" y="380">&lt;&lt;Содержит&gt;&gt;</tspan>
+  </text>
+  <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="840" y="180">
+    <tspan x="840" y="180">&lt;&lt;Использует</tspan>
+    <tspan x="840" y="196">статические</tspan>
+    <tspan x="840" y="212">библиотеки&gt;&gt;</tspan>
+  </text>
+  <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="640" y="340">
+    <tspan x="640" y="340">&lt;&lt;Использует</tspan>
+    <tspan x="640" y="356">статические</tspan>
+    <tspan x="640" y="372">библиотеки&gt;&gt;</tspan>
+  </text>
+  <g>
+    <rect style="fill: #ffffff" x="1100.38" y="420" width="149" height="70"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1100.38" y="420" width="149" height="70"/>
+    <rect style="fill: #ffffff" x="1080.38" y="434" width="40" height="14"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1080.38" y="434" width="40" height="14"/>
+    <rect style="fill: #ffffff" x="1080.38" y="462" width="40" height="14"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1080.38" y="462" width="40" height="14"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="1128.38" y="445.9">
+      <tspan x="1128.38" y="445.9">carl</tspan>
+      <tspan x="1128.38" y="461.9">(просмотровщик</tspan>
+      <tspan x="1128.38" y="477.9">отчётов)</tspan>
+    </text>
+  </g>
+</svg>
