@@ -36,7 +36,6 @@
 % \renewcommand*\familydefault{\sfdefault} %% Only if the base font of the document is to be typewriter style
 \usepackage[T2A]{fontenc}
 
-%TODO: Титульный лист с автором, руководителем и названием МГТУ: соискатель (ФИО полностью), научный руководитель.
 \newcommand{\itemi}{\item[\checkmark]}
 \setbeamercolor{frametitle}{fg=black}
 \title{Метод межпроцедурного и~межмодульного анализа кодов программ, написанных на~языках  С~и~С++, для построения многоцелевого контекстно-чувствительного анализатора}
@@ -45,29 +44,70 @@
 
 
 \begin{frame}
-  \center{\Huge{Метод межпроцедурного и~межмодульного анализа кодов программ, написанных на~языках  С~и~С++, для построения многоцелевого контекстно-чувствительного анализатора}}
+  \center{\small{Федеральное государственное бюджетное образовательное учреждение \\ высшего профессионального образования \\ <<Московский государственный технический университет \\имени Н.\,Э.~Баумана>>}}
+  \bigskip\bigskip
+  \center{\Large{Метод межпроцедурного и~межмодульного анализа кодов программ, написанных на~языках  С~и~С++, для построения многоцелевого контекстно-чувствительного анализатора}}
+  \bigskip
+  \begin{flushright}%
+
+  Соискатель: Сидорин Алексей Васильевич
+  
+  Научный руководитель: Романова Т.Н., к.ф.-м.н., доцент
+  \end{flushright}
+  \bigskip
+    \center{{Москва, 2016 г.}}
+
 \end{frame}
 
 %--------------------------------------------------------------------------------------------------------
-\begin{frame}
-\frametitle{Cложные программные системы}
-\begin{figure}[h]
-  \center{\includegraphics[width=\linewidth]{../Dissertation/images/complexity-1.pdf}}
-\end{figure}
-\end{frame}
-%--------------------------------------------------------------------------------------------------------
-\renewcommand{\arraystretch}{1.2}
 
 \begin{frame}
-\frametitle{Актуальность проблемы анализа программных систем}
-\begin{figure}[h]
-    \center{\includegraphics[width=1\linewidth]{../Dissertation/images/problems.pdf}}
-    
-    \textbf{ЖЦ безопасного ПО}
-    \center{\includegraphics[width=1\linewidth]{../Dissertation/images/ms-sdl-sel.pdf}}
+\frametitle{Статический анализ ПО}
+\begin{itemize}
+  \item Промышленные анализаторы
+  \begin{itemize}
+    \item \textbf{Coverity Prevent}
+    \item HP Fortify
+    \item Klocwork
+    \item \textbf{Svace}
+    \item PVS-Studio
+  \end{itemize}
+  \item Исследовательские работы
+  \begin{itemize}
+  \item KLEE [Cadar, Engler, 2008]
+  \item Mayhem [Cha, Avreginos, etc., 2012]
+  \item DART [Godefroid, Klarlund, Sen, 2006]
+  \end{itemize}
+  \item Инструменты разработчика
+    \begin{itemize}
+    \item Cppcheck
+    \item Lint
+    \item \textbf{Clang Static Analyzer}
+    \end{itemize}
 
-\end{figure}
+\end{itemize}
 \end{frame}
+
+
+% \begin{frame}
+% \frametitle{Cложные программные системы}
+% \begin{figure}[h]
+%   \center{\includegraphics[width=\linewidth]{../Dissertation/images/complexity-1.pdf}}
+% \end{figure}
+% \end{frame}
+% %--------------------------------------------------------------------------------------------------------
+% \renewcommand{\arraystretch}{1.2}
+% 
+% \begin{frame}
+% \frametitle{Актуальность проблемы анализа программных систем}
+% \begin{figure}[h]
+%     \center{\includegraphics[width=1\linewidth]{../Dissertation/images/problems.pdf}}
+%     
+%     \textbf{ЖЦ безопасного ПО}
+%     \center{\includegraphics[width=1\linewidth]{../Dissertation/images/ms-sdl-sel.pdf}}
+% 
+% \end{figure}
+% \end{frame}
 
 %TODO: Отдельный слайд с существующими продуктами и работами (возможно, в виде списка); сократить таким образом речь.
 %--------------------------------------------------------------------------------------------------------
@@ -636,9 +676,12 @@ $Temp$~--- регион временного объекта
   \item Разработан метод межмодульного анализа программ, реализованных с использованием языков C и C++, для повышения полноты анализа многокомпонентных систем.
 \end{enumerate}
 
-\big{ Практическое применение}
-
-   Реализовано программное обеспечения (многоцелевой анализатор и его утилиты) на основе предложенных методов с целью его промышленного и коммерческого применения для поиска дефектов в исходном коде программных комплексов. Реализованное ПО внедрено к использованию для анализа ПО различного назначения и доступно в открытом доступе в виде исходного кода (Illinois Open Source License).
+{\Large Практическое применение}
+\begin{enumerate}
+  \item На основе предложенных методов реализовано программное обеспечение (многоцелевой анализатор и его утилиты).
+  \item Реализованное ПО внедрено к использованию для анализа ПО различного назначения в подразделениях Samsung Elecronics.
+  \item Разработанные и модифицированные компоненты ПО помещены в открытый доступ в виде исходного кода (Illinois Open Source License).
+\end{enumerate}
 
 \end{frame}
 %--------------------------------------------------------------------------------------------------------
